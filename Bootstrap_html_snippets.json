@@ -1,0 +1,1807 @@
+{
+	// Bootstrap snippets for Visual Studio Code
+    // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
+    // Creation Date: 20/11/2020
+    // Update Date: 23/11/2020
+    // Update Date: 24/11/2020
+    // Update Date: 25/11/2020
+    // Update Date: 26/11/2020
+
+    "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
+        "prefix": "container",
+        "body": ["container"],
+        "description": "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)"
+    },
+    "Use .container-fluid for a full width container, spanning the entire width of the viewport (Bootstrap snippets)": {
+        "prefix": "container-fluid",
+        "body": ["container-fluid"],
+        "description": "Use .container-fluid for a full width container, spanning the entire width of the viewport (Bootstrap snippets)"
+    },
+    "Rows are wrappers for columns (Bootstrap snippets)": {
+        "prefix": "row",
+        "body": ["row"],
+        "description": "Rows are wrappers for columns (Bootstrap snippets)"
+    },
+    "Extra small columns (Bootstrap snippets)": {
+        "prefix": "col-",
+        "body": ["col-$1"],
+        "description": "Extra small columns (Bootstrap snippets)"
+    },
+    "Small columns (Bootstrap snippets)": {
+        "prefix": "col-sm-",
+        "body": ["col-sm-$1"],
+        "description": "Small columns (Bootstrap snippets)"
+    },
+    "Medium columns (Bootstrap snippets)": {
+        "prefix": "col-md-",
+        "body": ["col-md-$1"],
+        "description": "Medium columns (Bootstrap snippets)"
+    },
+    "Large columns (Bootstrap snippets)": {
+        "prefix": "col-lg-",
+        "body": ["col-lg-$1"],
+        "description": "Large columns (Bootstrap snippets)"
+    },
+    "Extra large columns (Bootstrap snippets)": {
+        "prefix": "col-xl-",
+        "body": ["col-xl-$1"],
+        "description": "Extra large columns (Bootstrap snippets)"
+    },
+    "You can offset grid columns by using .offset- grid classes (Bootstrap snippets)": {
+        "prefix": "offset-",
+        "body": ["offset-$1"],
+        "description": "You can offset grid columns by using .offset- grid classes (Bootstrap snippets)"
+    },
+    "Hidden on all, sets display: none; (Bootstrap snippets)": {
+        "prefix": "d-none",
+        "body": ["d-none"],
+        "description": "Hidden on all, sets display: none; (Bootstrap snippets)"
+    },
+    "Visible on all, sets display: block; (Bootstrap snippets)": {
+        "prefix": "d-block",
+        "body": ["d-block"],
+        "description": "Visible on all, sets display: block; (Bootstrap snippets)"
+    },
+    "Change the display value of elements when printing with our print display utility classes (Bootstrap snippets)": {
+        "prefix": "d-print-",
+        "body": ["d-print-$1"],
+        "description": "Change the display value of elements when printing with our print display utility classes (Bootstrap snippets)"
+    },
+    "Alerts are created with the .alert class (Bootstrap snippets)": {
+        "prefix": "alert",
+        "body": ["alert"],
+        "description": "Alerts are created with the .alert class (Bootstrap snippets)"
+    },
+    "This is a primary alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-primary",
+        "body": ["alert-primary"],
+        "description": "This is a primary alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a secondary alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-secondary",
+        "body": ["alert-secondary"],
+        "description": "This is a secondary alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a success alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-success",
+        "body": ["alert-success"],
+        "description": "This is a success alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a danger alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-danger",
+        "body": ["alert-danger"],
+        "description": "This is a danger alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a warning alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-warning",
+        "body": ["alert-warning"],
+        "description": "This is a warning alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a info alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-info",
+        "body": ["alert-info"],
+        "description": "This is a info alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a light alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-light",
+        "body": ["alert-light"],
+        "description": "This is a light alert—check it out! (Bootstrap snippets)"
+    },
+    "This is a dark alert—check it out! (Bootstrap snippets)": {
+        "prefix": "alert-dark",
+        "body": ["alert-dark"],
+        "description": "This is a dark alert—check it out! (Bootstrap snippets)"
+    },
+    "mt- for classes that set margin-top (Bootstrap snippets)": {
+        "prefix": "mt-",
+        "body": ["mt-$1"],
+        "description": "mt- for classes that set margin-top (Bootstrap snippets)"
+    },
+    "mb- for classes that set margin-bottom (Bootstrap snippets)": {
+        "prefix": "mb-",
+        "body": ["mb-$1"],
+        "description": "mb- for classes that set margin-bottom (Bootstrap snippets)"
+    },
+    "ml- for classes that set margin-left (Bootstrap snippets)": {
+        "prefix": "ml-",
+        "body": ["ml-$1"],
+        "description": "ml- for classes that set margin-left (Bootstrap snippets)"
+    },
+    "mr- for classes that set margin-right (Bootstrap snippets)": {
+        "prefix": "mr-",
+        "body": ["mr-$1"],
+        "description": "mr- for classes that set margin-right (Bootstrap snippets)"
+    },
+    "mx- for classes that set both *-left and *-right (Bootstrap snippets)": {
+        "prefix": "mr-",
+        "body": ["mx-$1"],
+        "description": "mx- for classes that set both *-left and *-right (Bootstrap snippets)"
+    },
+    "my- for classes that set both *-top and *-bottom (Bootstrap snippets)": {
+        "prefix": "my-",
+        "body": ["my-$1"],
+        "description": "my- for classes that set both *-top and *-bottom (Bootstrap snippets)"
+    },
+    "pt- for classes that set padding-top (Bootstrap snippets)": {
+        "prefix": "pt-",
+        "body": ["pt-$1"],
+        "description": "pt- for classes that set padding-top (Bootstrap snippets)"
+    },
+    "pb- for classes that set padding-bottom (Bootstrap snippets)": {
+        "prefix": "pb-",
+        "body": ["pb-$1"],
+        "description": "pb- for classes that set padding-bottom (Bootstrap snippets)"
+    },
+    "pl- for classes that set padding-left (Bootstrap snippets)": {
+        "prefix": "pl-",
+        "body": ["pl-$1"],
+        "description": "pl- for classes that set padding-left (Bootstrap snippets)"
+    },
+    "pr- for classes that set padding-right (Bootstrap snippets)": {
+        "prefix": "pr-",
+        "body": ["pr-$1"],
+        "description": "pr- for classes that set padding-right (Bootstrap snippets)"
+    },
+    "px- for classes that set both *-left and *-right (Bootstrap snippets)": {
+        "prefix": "pr-",
+        "body": ["px-$1"],
+        "description": "px- for classes that set both *-left and *-right (Bootstrap snippets)"
+    },
+    "py- for classes that set both *-top and *-bottom (Bootstrap snippets)": {
+        "prefix": "py-",
+        "body": ["py-$1"],
+        "description": "py- for classes that set both *-top and *-bottom (Bootstrap snippets)"
+    },
+    "Bootstrap also includes an .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)": {
+        "prefix": "mx-auto",
+        "body": ["mx-auto"],
+        "description": "Bootstrap also includes an .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)"
+    },
+    "h1. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h1",
+        "body": ["h1"],
+        "description": "h1. Bootstrap heading (Bootstrap snippets)"
+    },
+    "h2. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h2",
+        "body": ["h2"],
+        "description": "h2. Bootstrap heading (Bootstrap snippets)"
+    },
+    "h3. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h3",
+        "body": ["h3"],
+        "description": "h3. Bootstrap heading (Bootstrap snippets)"
+    },
+    "h4. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h4",
+        "body": ["h4"],
+        "description": "h4. Bootstrap heading (Bootstrap snippets)"
+    },
+    "h5. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h5",
+        "body": ["h5"],
+        "description": "h5. Bootstrap heading (Bootstrap snippets)"
+    },
+    "h6. Bootstrap heading (Bootstrap snippets)": {
+        "prefix": "h6",
+        "body": ["h6"],
+        "description": "h6. Bootstrap heading (Bootstrap snippets)"
+    },
+    "Display Heading 1 (Bootstrap snippets)": {
+        "prefix": "display-1",
+        "body": ["display-1"],
+        "description": "Display Heading 1 (Bootstrap snippets)"
+    },
+    "Display Heading 2 (Bootstrap snippets)": {
+        "prefix": "display-2",
+        "body": ["display-2"],
+        "description": "Display Heading 2 (Bootstrap snippets)"
+    },
+    "Display Heading 3 (Bootstrap snippets)": {
+        "prefix": "display-3",
+        "body": ["display-3"],
+        "description": "Display Heading 3 (Bootstrap snippets)"
+    },
+    "Display Heading 4 (Bootstrap snippets)": {
+        "prefix": "display-4",
+        "body": ["display-4"],
+        "description": "Display Heading 4 (Bootstrap snippets)"
+    },
+    "Make a paragraph stand out by adding .lead (Bootstrap snippets)": {
+        "prefix": "lead",
+        "body": ["lead"],
+        "description": "Make a paragraph stand out by adding .lead (Bootstrap snippets)"
+    },
+    "Add .initialism to an abbreviation for a slightly smaller font-size (Bootstrap snippets)": {
+        "prefix": "initialism",
+        "body": ["initialism"],
+        "description": "Add .initialism to an abbreviation for a slightly smaller font-size (Bootstrap snippets)"
+    },
+    "Add .blockquote for quoting blocks of content from another source within your document (Bootstrap snippets)": {
+        "prefix": "blockquote",
+        "body": ["blockquote"],
+        "description": "Add .blockquote for quoting blocks of content from another source within your document (Bootstrap snippets)"
+    },
+    "Add .blockquote-footer for identifying the source (Bootstrap snippets)": {
+        "prefix": "blockquote-footer",
+        "body": ["blockquote-footer"],
+        "description": "Add .blockquote-footer for identifying the source (Bootstrap snippets)"
+    },
+    "Add .list-unstyled for Removing the default list-style and left margin on list items (immediate children only) (Bootstrap snippets)": {
+        "prefix": "list-unstyled",
+        "body": ["list-unstyled"],
+        "description": "Add .list-unstyled for Removing the default list-style and left margin on list items (immediate children only) (Bootstrap snippets)"
+    },
+    "Remove a list’s bullets and apply some light margin with a combination of two classes, .list-inline and .list-inline-item (Bootstrap snippets)": {
+        "prefix": "list-inline",
+        "body": ["list-inline"],
+        "description": "Remove a list’s bullets and apply some light margin with a combination of two classes, .list-inline and .list-inline-item (Bootstrap snippets)"
+    },
+    "Images in Bootstrap are made responsive with .img-fluid (Bootstrap snippets)": {
+        "prefix": "img-fluid",
+        "body": ["img-fluid"],
+        "description": "Images in Bootstrap are made responsive with .img-fluid (Bootstrap snippets)"
+    },
+    "Use .img-thumbnail to give an image a rounded 1px border appearance (Bootstrap snippets)": {
+        "prefix": "img-thumbnail",
+        "body": ["img-thumbnail"],
+        "description": "Use .img-thumbnail to give an image a rounded 1px border appearance (Bootstrap snippets)"
+    },
+    "Add the base class .table to any <table>, then extend with custom styles or various modifier classes (Bootstrap snippets)": {
+        "prefix": "table",
+        "body": ["table"],
+        "description": "Add the base class .table to any <table>, then extend with custom styles or various modifier classes (Bootstrap snippets)"
+    },
+    "Invert the colors—with light text on dark backgrounds—with .table-dark (Bootstrap snippets)": {
+        "prefix": "table-dark",
+        "body": ["table-dark"],
+        "description": "Invert the colors—with light text on dark backgrounds—with .table-dark (Bootstrap snippets)"
+    },
+    "Use the modifier class .thead-dark to make <thead> dark gray (Bootstrap snippets)": {
+        "prefix": "table-dark",
+        "body": ["table-dark"],
+        "description": "Use the modifier class .thead-dark to make <thead> dark gray (Bootstrap snippets)"
+    },
+    "Use the modifier class .thead-light to make <thead> light (Bootstrap snippets)": {
+        "prefix": "thead-light",
+        "body": ["thead-light"],
+        "description": "Use the modifier class .thead-light to make <thead> light (Bootstrap snippets)"
+    },
+    "Use .table-striped to add zebra-striping to any table row within the <tbody> (Bootstrap snippets)": {
+        "prefix": "table-striped",
+        "body": ["table-striped"],
+        "description": "Use .table-striped to add zebra-striping to any table row within the <tbody> (Bootstrap snippets)"
+    },
+    "Add .table-bordered for borders on all sides of the table and cells (Bootstrap snippets)": {
+        "prefix": "table-bordered",
+        "body": ["table-bordered"],
+        "description": "Add .table-bordered for borders on all sides of the table and cells (Bootstrap snippets)"
+    },
+    "Add .table-hover to enable a hover state on table rows within a <tbody> (Bootstrap snippets)": {
+        "prefix": "table-hover",
+        "body": ["table-hover"],
+        "description": "Add .table-hover to enable a hover state on table rows within a <tbody> (Bootstrap snippets)"
+    },
+    "Add .table-sm to make tables more compact by cutting cell padding in half (Bootstrap snippets)": {
+        "prefix": "table-sm",
+        "body": ["table-sm"],
+        "description": "Add .table-sm to make tables more compact by cutting cell padding in half (Bootstrap snippets)"
+    },
+    "Use .table-active class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-active",
+        "body": ["table-active"],
+        "description": "Use .table-active class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-primary class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-primary",
+        "body": ["table-primary"],
+        "description": "Use .table-primary class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-secondary class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-secondary",
+        "body": ["table-secondary"],
+        "description": "Use .table-secondary class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-success class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-success",
+        "body": ["table-success"],
+        "description": "Use .table-success class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-danger class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-danger",
+        "body": ["table-danger"],
+        "description": "Use .table-danger class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-warning class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-warning",
+        "body": ["table-warning"],
+        "description": "Use .table-warning class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-info class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-info",
+        "body": ["table-info"],
+        "description": "Use .table-info class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-light class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-light",
+        "body": ["table-light"],
+        "description": "Use .table-light class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-dark class to color table rows or individual cells (Bootstrap snippets)": {
+        "prefix": "table-dark",
+        "body": ["table-dark"],
+        "description": "Use .table-dark class to color table rows or individual cells (Bootstrap snippets)"
+    },
+    "Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint (Bootstrap snippets)": {
+        "prefix": "table-responsive-",
+        "body": ["table-responsive-$1"],
+        "description": "Use .table-responsive{-sm|-md|-lg|-xl} as needed to create responsive tables up to a particular breakpoint (Bootstrap snippets)"
+    },
+    "Use .figure class to provide some baseline styles for the HTML5 <figure> (Bootstrap snippets)": {
+        "prefix": "figure",
+        "body": ["figure"],
+        "description": "Use .figure class to provide some baseline styles for the HTML5 <figure> (Bootstrap snippets)"
+    },
+    "Use .figure-img class to provide some baseline styles for the HTML5 <figure> (Bootstrap snippets)": {
+        "prefix": "figure-img",
+        "body": ["figure-img"],
+        "description": "Use .figure-img class to provide some baseline styles for the HTML5 <figure> (Bootstrap snippets)"
+    },
+    "Use .figure-caption class to provide some baseline styles for the HTML5 <figcaption> (Bootstrap snippets)": {
+        "prefix": "figure-caption",
+        "body": ["figure-caption"],
+        "description": "Use .figure-caption class to provide some baseline styles for the HTML5 <figcaption> (Bootstrap snippets)"
+    },
+    "Badges scale to match the size of the immediate parent element by using relative font sizing and em units (Bootstrap snippets)": {
+        "prefix": "badge",
+        "body": ["badge"],
+        "description": "Badges scale to match the size of the immediate parent element by using relative font sizing and em units (Bootstrap snippets)"
+    },
+    "Use .badge-primary class to provide badge-primary style (Bootstrap snippets)": {
+        "prefix": "badge-primary",
+        "body": ["badge-primary"],
+        "description": "Use .badge-primary class to provide badge-primary style (Bootstrap snippets)"
+    },
+    "Use .badge-secondary class to provide badge-secondary style (Bootstrap snippets)": {
+        "prefix": "badge-secondary",
+        "body": ["badge-secondary"],
+        "description": "Use .badge-secondary class to provide badge-secondary style (Bootstrap snippets)"
+    },
+    "Use .badge-success class to provide badge-success style (Bootstrap snippets)": {
+        "prefix": "badge-success",
+        "body": ["badge-success"],
+        "description": "Use .badge-success class to provide badge-success style (Bootstrap snippets)"
+    },
+    "Use .badge-danger class to provide badge-danger style (Bootstrap snippets)": {
+        "prefix": "badge-danger",
+        "body": ["badge-danger"],
+        "description": "Use .badge-danger class to provide badge-danger style (Bootstrap snippets)"
+    },
+    "Use .badge-warning class to provide badge-warning style (Bootstrap snippets)": {
+        "prefix": "badge-warning",
+        "body": ["badge-warning"],
+        "description": "Use .badge-warning class to provide badge-warning style (Bootstrap snippets)"
+    },
+    "Use .badge-info class to provide badge-info style (Bootstrap snippets)": {
+        "prefix": "badge-info",
+        "body": ["badge-info"],
+        "description": "Use .badge-info class to provide badge-info style (Bootstrap snippets)"
+    },
+    "Use .badge-light class to provide badge-light style (Bootstrap snippets)": {
+        "prefix": "badge-light",
+        "body": ["badge-light"],
+        "description": "Use .badge-light class to provide badge-light style (Bootstrap snippets)"
+    },
+    "Use .badge-dark class to provide badge-dark style (Bootstrap snippets)": {
+        "prefix": "badge-dark",
+        "body": ["badge-dark"],
+        "description": "Use .badge-dark class to provide badge-dark style (Bootstrap snippets)"
+    },
+    "Use the .badge-pill modifier class to make badges more rounded (with a larger border-radius and additional horizontal padding) (Bootstrap snippets)": {
+        "prefix": "badge-pill",
+        "body": ["badge-pill"],
+        "description": "Use the .badge-pill modifier class to make badges more rounded (with a larger border-radius and additional horizontal padding) (Bootstrap snippets)"
+    },
+    "The .btn classes are designed to be used with the <button> element (Bootstrap snippets)": {
+        "prefix": "button",
+        "body": ["button"],
+        "description": "The .btn classes are designed to be used with the <button> element (Bootstrap snippets)"
+    },
+    "Use .btn-primary class to provide btn-primary buttton style (Bootstrap snippets)": {
+        "prefix": "btn-primary",
+        "body": ["btn-primary"],
+        "description": "Use .btn-primary class to provide btn-primary buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-secondary class to provide btn-secondary buttton style (Bootstrap snippets)": {
+        "prefix": "btn-secondary",
+        "body": ["btn-secondary"],
+        "description": "Use .btn-secondary class to provide btn-secondary buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-success class to provide btn-success buttton style (Bootstrap snippets)": {
+        "prefix": "btn-success",
+        "body": ["btn-success"],
+        "description": "Use .btn-success class to provide btn-success buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-danger class to provide btn-danger buttton style (Bootstrap snippets)": {
+        "prefix": "btn-danger",
+        "body": ["btn-danger"],
+        "description": "Use .btn-danger class to provide btn-danger buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-warning class to provide btn-warning buttton style (Bootstrap snippets)": {
+        "prefix": "btn-warning",
+        "body": ["btn-warning"],
+        "description": "Use .btn-warning class to provide btn-warning buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-info class to provide btn-info buttton style (Bootstrap snippets)": {
+        "prefix": "btn-info",
+        "body": ["btn-info"],
+        "description": "Use .btn-info class to provide btn-info buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-light class to provide btn-light buttton style (Bootstrap snippets)": {
+        "prefix": "btn-light",
+        "body": ["btn-light"],
+        "description": "Use .btn-light class to provide btn-light buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-dark class to provide btn-dark buttton style (Bootstrap snippets)": {
+        "prefix": "btn-dark",
+        "body": ["btn-dark"],
+        "description": "Use .btn-dark class to provide btn-dark buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-link class to provide btn-link buttton style (Bootstrap snippets)": {
+        "prefix": "btn-link",
+        "body": ["btn-link"],
+        "description": "Use .btn-link class to provide btn-link buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-primary class to provide btn-outline-primary buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-primary",
+        "body": ["btn-outline-primary"],
+        "description": "Use .btn-outline-primary class to provide btn-outline-primary buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-secondary class to provide btn-outline-secondary buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-secondary",
+        "body": ["btn-outline-secondary"],
+        "description": "Use .btn-outline-secondary class to provide btn-outline-secondary buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-success class to provide btn-outline-success buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-success",
+        "body": ["btn-outline-success"],
+        "description": "Use .btn-outline-success class to provide btn-outline-success buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-danger class to provide btn-outline-danger buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-danger",
+        "body": ["btn-outline-danger"],
+        "description": "Use .btn-outline-danger class to provide btn-outline-danger buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-warning class to provide btn-outline-warning buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-warning",
+        "body": ["btn-outline-warning"],
+        "description": "Use .btn-outline-warning class to provide btn-outline-warning buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-info class to provide btn-outline-info buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-info",
+        "body": ["btn-outline-info"],
+        "description": "Use .btn-outline-info class to provide btn-outline-info buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-light class to provide btn-outline-light buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-light",
+        "body": ["btn-outline-light"],
+        "description": "Use .btn-outline-light class to provide btn-outline-light buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-outline-dark class to provide btn-outline-dark buttton style (Bootstrap snippets)": {
+        "prefix": "btn-outline-dark",
+        "body": ["btn-outline-dark"],
+        "description": "Use .btn-outline-dark class to provide btn-outline-dark buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-lg class to provide fancy larger buttton style (Bootstrap snippets)": {
+        "prefix": "btn-lg",
+        "body": ["btn-lg"],
+        "description": "Use .btn-lg class to provide fancy larger buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-sm class to provide fancy smaller buttton style (Bootstrap snippets)": {
+        "prefix": "btn-sm",
+        "body": ["btn-sm"],
+        "description": "Use .btn-sm class to provide fancy smaller buttton style (Bootstrap snippets)"
+    },
+    "Use .btn-block class to Create block level button that span the full width of a parent (Bootstrap snippets)": {
+        "prefix": "btn-block",
+        "body": ["btn-block"],
+        "description": "Use .btn-block class to Create block level button that span the full width of a parent (Bootstrap snippets)"
+    },
+    "Wrap a series of buttons with .btn in .btn-group (Bootstrap snippets)": {
+        "prefix": "btn-group",
+        "body": ["btn-group"],
+        "description": "Wrap a series of buttons with .btn in .btn-group (Bootstrap snippets)"
+    },
+    "A card is a flexible and extensible content container (Bootstrap snippets)": {
+        "prefix": "card",
+        "body": ["card"],
+        "description": "A card is a flexible and extensible content container (Bootstrap snippets)"
+    },
+    "Use .card-img-top class to provide card-img-top style (Bootstrap snippets)": {
+        "prefix": "card-img-top",
+        "body": ["card-img-top"],
+        "description": "Use .card-img-top class to provide card-img-top style (Bootstrap snippets)"
+    },
+    "Use .card-body class to provide card-body style (Bootstrap snippets)": {
+        "prefix": "card-body",
+        "body": ["card-body"],
+        "description": "Use .card-body class to provide card-body style (Bootstrap snippets)"
+    },
+    "Use .card-title class to provide card-title style (Bootstrap snippets)": {
+        "prefix": "card-title",
+        "body": ["card-title"],
+        "description": "Use .card-title class to provide card-title style (Bootstrap snippets)"
+    },
+    "Use .card-subtitle class to provide card-subtitle style (Bootstrap snippets)": {
+        "prefix": "card-subtitle",
+        "body": ["card-subtitle"],
+        "description": "Use .card-subtitle class to provide card-subtitle style (Bootstrap snippets)"
+    },
+    "Use .card-text class to provide card-text style (Bootstrap snippets)": {
+        "prefix": "card-text",
+        "body": ["card-text"],
+        "description": "Use .card-text class to provide card-text style (Bootstrap snippets)"
+    },
+    "Use .card-header class to provide card-header style (Bootstrap snippets)": {
+        "prefix": "card-header",
+        "body": ["card-header"],
+        "description": "Use .card-header class to provide card-header style (Bootstrap snippets)"
+    },
+    "Use .dropdown class to get dropdown (Bootstrap snippets)": {
+        "prefix": "dropdown",
+        "body": ["dropdown"],
+        "description": "Use .dropdown class to get dropdown (Bootstrap snippets)"
+    },
+    "Use .dropdown-menu class to get dropdown menu (Bootstrap snippets)": {
+        "prefix": "dropdown-menu",
+        "body": ["dropdown-menu"],
+        "description": "Use .dropdown-menu class to get dropdown menu (Bootstrap snippets)"
+    },
+    "Use .dropdownMenuButton class to get dropdown menu button (Bootstrap snippets)": {
+        "prefix": "dropdownMenuButton",
+        "body": ["dropdownMenuButton"],
+        "description": "Use .dropdownMenuButton class to get dropdown menu button (Bootstrap snippets)"
+    },
+    "Use .dropdown-item class to get dropdown item (Bootstrap snippets)": {
+        "prefix": "dropdown-item",
+        "body": ["dropdown-item"],
+        "description": "Use .dropdown-item class to get dropdown item (Bootstrap snippets)"
+    },
+    "Use .dropdown-toggle class to get dropdown dropdown-toggle (Bootstrap snippets)": {
+        "prefix": "dropdown-toggle",
+        "body": ["dropdown-toggle"],
+        "description": "Use .dropdown-toggle class to get dropdown dropdown-toggle (Bootstrap snippets)"
+    },
+    "Use .dropdown-toggle-split class for proper spacing around the dropdown caret (Bootstrap snippets)": {
+        "prefix": "dropdown-toggle-split",
+        "body": ["dropdown-toggle-split"],
+        "description": "Use .dropdown-toggle-split class for proper spacing around the dropdown caret (Bootstrap snippets)"
+    },
+    "The .form-group class is the easiest way to add some structure to forms (Bootstrap snippets)": {
+        "prefix": "form-group",
+        "body": ["form-group"],
+        "description": "The .form-group class is the easiest way to add some structure to forms (Bootstrap snippets)"
+    },
+    "Use .form-check class for form check box (Bootstrap snippets)": {
+        "prefix": "form-check",
+        "body": ["form-check"],
+        "description": "Use .form-check class for form check box (Bootstrap snippets)"
+    },
+    "Use .form-check-inline class to group checkboxes or radios on the same horizontal row (Bootstrap snippets)": {
+        "prefix": "form-check-inline",
+        "body": ["form-check-inline"],
+        "description": "Use .form-check-inline class to group checkboxes or radios on the same horizontal row (Bootstrap snippets)"
+    },
+    "Use .form-control class for textual form controls—like <input>s, <select>s, and <textarea>s (Bootstrap snippets)": {
+        "prefix": "form-control",
+        "body": ["form-control"],
+        "description": "Use .form-control class for textual form controls—like <input>s, <select>s, and <textarea>s (Bootstrap snippets)"
+    },
+    "Use .form-control-file class for file inputs (Bootstrap snippets)": {
+        "prefix": "form-control-file",
+        "body": ["form-control-file"],
+        "description": "Use .form-control-file class for file inputs (Bootstrap snippets)"
+    },
+    "Use .form-control-lg class for larger size form input (Bootstrap snippets)": {
+        "prefix": "form-control-lg",
+        "body": ["form-control-lg"],
+        "description": "Use .form-control-lg class for larger size form input (Bootstrap snippets)"
+    },
+    "Use .form-control-sm class for smaller size form input (Bootstrap snippets)": {
+        "prefix": "form-control-sm",
+        "body": ["form-control-sm"],
+        "description": "Use .form-control-sm class for smaller size form input (Bootstrap snippets)"
+    },
+    "Use .col-form-label to your <label>s so they’re vertically centered with their associated form controls (Bootstrap snippets)": {
+        "prefix": "col-form-label",
+        "body": ["col-form-label"],
+        "description": "Use .col-form-label to your <label>s so they’re vertically centered with their associated form controls (Bootstrap snippets)"
+    },
+    "Use the .form-inline class to display a series of labels, form controls, and buttons on a single horizontal row (Bootstrap snippets)": {
+        "prefix": "form-inline",
+        "body": ["form-inline"],
+        "description": "Use the .form-inline class to display a series of labels, form controls, and buttons on a single horizontal row (Bootstrap snippets)"
+    },
+    "Use .jumbotron-fluid modifier class and add a .container or .container-fluid within (Bootstrap snippets)": {
+        "prefix": "jumbotron-fluid",
+        "body": ["jumbotron-fluid"],
+        "description": "Use .jumbotron-fluid modifier class and add a .container or .container-fluid within (Bootstrap snippets)"
+    },
+    "Use .active class to a .list-group-item to indicate the current active selection (Bootstrap snippets)": {
+        "prefix": "active",
+        "body": ["active"],
+        "description": "Use .active class to a .list-group-item to indicate the current active selection (Bootstrap snippets)"
+    },
+    "Primary alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-primary",
+        "body": ["<div class=\"alert alert-primary\" role=\"alert\">$1</div>"],
+        "description": "Primary alert (Bootstrap snippets)"
+    },
+    "Secondary alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-secondary",
+        "body": ["<div class=\"alert alert-secondary\" role=\"alert\">$1</div>"],
+        "description": "Secondary alert (Bootstrap snippets)"
+    },
+    "Success alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-success",
+        "body": ["<div class=\"alert alert-success\" role=\"alert\">$1</div>"],
+        "description": "Success alert (Bootstrap snippets)"
+    },
+    "Danger alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-danger",
+        "body": ["<div class=\"alert alert-danger\" role=\"alert\">$1</div>"],
+        "description": "Danger alert (Bootstrap snippets)"
+    },
+    "Warning alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-warning",
+        "body": ["<div class=\"alert alert-warning\" role=\"alert\">$1</div>"],
+        "description": "Warning alert (Bootstrap snippets)"
+    },
+    "Info alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-info",
+        "body": ["<div class=\"alert alert-info\" role=\"alert\">$1</div>"],
+        "description": "Info alert (Bootstrap snippets)"
+    },
+    "Light alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-light",
+        "body": ["<div class=\"alert alert-light\" role=\"alert\">$1</div>"],
+        "description": "Light alert (Bootstrap snippets)"
+    },
+    "Dark alert (Bootstrap snippets)": {
+        "prefix": "b4-alert-dark",
+        "body": ["<div class=\"alert alert-dark\" role=\"alert\">$1</div>"],
+        "description": "Dark alert (Bootstrap snippets)"
+    },
+    "Alert link (Bootstrap snippets)": {
+        "prefix": "b4-alert-link",
+        "body": ["<a href=\"#\" class=\"alert-link\">$1</a>"],
+        "description": "Alert link (Bootstrap snippets)"
+    },
+    "Primary badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-primary",
+        "body": ["<span class=\"badge badge-primary\">$1</span>"],
+        "description": "Primary badge (Bootstrap snippets)"
+    },
+    "Secondary badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-secondary",
+        "body": ["<span class=\"badge badge-secondary\">$1</span>"],
+        "description": "Secondary badge (Bootstrap snippets)"
+    },
+    "Success badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-success",
+        "body": ["<span class=\"badge badge-success\">$1</span>"],
+        "description": "Success badge (Bootstrap snippets)"
+    },
+    "Danger badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-danger",
+        "body": ["<span class=\"badge badge-danger\">$1</span>"],
+        "description": "Danger badge (Bootstrap snippets)"
+    },
+    "Warning badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-warning",
+        "body": ["<span class=\"badge badge-warning\">$1</span>"],
+        "description": "Warning badge (Bootstrap snippets)"
+    },
+    "Info badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-info",
+        "body": ["<span class=\"badge badge-info\">$1</span>"],
+        "description": "Info badge (Bootstrap snippets)"
+    },
+    "Light badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-light",
+        "body": ["<span class=\"badge badge-light\">$1</span>"],
+        "description": "Light badge (Bootstrap snippets)"
+    },
+    "Dark badge (Bootstrap snippets)": {
+        "prefix": "b4-badge-dark",
+        "body": ["<span class=\"badge badge-dark\">$1</span>"],
+        "description": "Dark badge (Bootstrap snippets)"
+    },
+    "Primary button (Bootstrap snippets)": {
+        "prefix": "b4-btn-primary",
+        "body": ["<button type=\"button\" class=\"btn btn-primary\">$1</button>"],
+        "description": "Primary button (Bootstrap snippets)"
+    },
+    "Secondary button (Bootstrap snippets)": {
+        "prefix": "b4-btn-secondary",
+        "body": ["<button type=\"button\" class=\"btn btn-secondary\">$1</button>"],
+        "description": "Secondary button (Bootstrap snippets)"
+    },
+    "Success button (Bootstrap snippets)": {
+        "prefix": "b4-btn-success",
+        "body": ["<button type=\"button\" class=\"btn btn-success\">$1</button>"],
+        "description": "Success button (Bootstrap snippets)"
+    },
+    "Danger button (Bootstrap snippets)": {
+        "prefix": "b4-btn-danger",
+        "body": ["<button type=\"button\" class=\"btn btn-danger\">$1</button>"],
+        "description": "Danger button (Bootstrap snippets)"
+    },
+    "Warning button (Bootstrap snippets)": {
+        "prefix": "b4-btn-warning",
+        "body": ["<button type=\"button\" class=\"btn btn-warning\">$1</button>"],
+        "description": "Warning button (Bootstrap snippets)"
+    },
+    "Info button (Bootstrap snippets)": {
+        "prefix": "b4-btn-info",
+        "body": ["<button type=\"button\" class=\"btn btn-info\">$1</button>"],
+        "description": "Info button (Bootstrap snippets)"
+    },
+    "Light button (Bootstrap snippets)": {
+        "prefix": "b4-btn-light",
+        "body": ["<button type=\"button\" class=\"btn btn-light\">$1</button>"],
+        "description": "Light button (Bootstrap snippets)"
+    },
+    "Dark button (Bootstrap snippets)": {
+        "prefix": "b4-btn-dark",
+        "body": ["<button type=\"button\" class=\"btn btn-dark\">$1</button>"],
+        "description": "Dark button (Bootstrap snippets)"
+    },
+    "Link button (Bootstrap snippets)": {
+        "prefix": "b4-btn-link",
+        "body": ["<button type=\"button\" class=\"btn btn-link\">$1</button>"],
+        "description": "Link button (Bootstrap snippets)"
+    },
+    "Primary outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-primary",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-primary\">$1</button>"],
+        "description": "Primary outline button (Bootstrap snippets)"
+    },
+    "Secondary outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-secondary",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-secondary\">$1</button>"],
+        "description": "Secondary outline button (Bootstrap snippets)"
+    },
+    "Success outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-success",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-success\">$1</button>"],
+        "description": "Success outline button (Bootstrap snippets)"
+    },
+    "Danger outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-danger",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-danger\">$1</button>"],
+        "description": "Danger outline button (Bootstrap snippets)"
+    },
+    "Warning outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-warning",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-warning\">$1</button>"],
+        "description": "Warning outline button (Bootstrap snippets)"
+    },
+    "Info outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-info",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-info\">$1</button>"],
+        "description": "Info outline button (Bootstrap snippets)"
+    },
+    "Light outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-light",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-light\">$1</button>"],
+        "description": "Light outline button (Bootstrap snippets)"
+    },
+    "Dark outline button (Bootstrap snippets)": {
+        "prefix": "b4-btn-outline-dark",
+        "body": ["<button type=\"button\" class=\"btn btn-outline-dark\">$1</button>"],
+        "description": "Dark outline button (Bootstrap snippets)"
+    },
+    "Button group (Bootstrap snippets)": {
+        "prefix": "b4-btn-group",
+        "body": [
+            "<div class=\"btn-group\" role=\"group\" aria-label=\"Basic example\">",
+            "  <button type=\"button\" class=\"btn btn-secondary\">Left</button>",
+            "  <button type=\"button\" class=\"btn btn-secondary\">Middle</button>",
+            "  <button type=\"button\" class=\"btn btn-secondary\">Right</button>",
+            "</div>"
+        ],
+        "description": "Button group (Bootstrap snippets)"
+    },
+    "Basic card (Bootstrap snippets)": {
+        "prefix": "b4-card",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+            "  <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "    <a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Basic card (Bootstrap snippets)"
+    },
+    "Card images (Bootstrap snippets)": {
+        "prefix": "b4-card-img",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+            "  <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "  <div class=\"card-body\">",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card images (Bootstrap snippets)"
+    },
+    "Card lists (Bootstrap snippets)": {
+        "prefix": "b4-card-list",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+            "  <ul class=\"list-group list-group-flush\">",
+            "    <li class=\"list-group-item\">Cras justo odio</li>",
+            "    <li class=\"list-group-item\">Dapibus ac facilisis in</li>",
+            "    <li class=\"list-group-item\">Vestibulum at eros</li>",
+            "  </ul>",
+            "</div>"
+        ],
+        "description": "Card lists (Bootstrap snippets)"
+    },
+    "Card Mix and match multiple content types to create the card (Bootstrap snippets)": {
+        "prefix": "b4-card-mix",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+            "  <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "  <ul class=\"list-group list-group-flush\">",
+            "    <li class=\"list-group-item\">Cras justo odio</li>",
+            "    <li class=\"list-group-item\">Dapibus ac facilisis in</li>",
+            "    <li class=\"list-group-item\">Vestibulum at eros</li>",
+            "  </ul>",
+            "  <div class=\"card-body\">",
+            "    <a href=\"#\" class=\"card-link\">Card link</a>",
+            "    <a href=\"#\" class=\"card-link\">Another link</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card Mix and match multiple content types to create the card (Bootstrap snippets)"
+    },
+    "Card header (Bootstrap snippets)": {
+        "prefix": "b4-card-header",
+        "body": [
+            "<div class=\"card\">",
+            "  <div class=\"card-header\">",
+            "    Featured",
+            "  </div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Special title treatment</h5>",
+            "    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>",
+            "    <a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card header (Bootstrap snippets)"
+    },
+    "Card blockquote (Bootstrap snippets)": {
+        "prefix": "b4-card-blockquote-footer",
+        "body": [
+            "<div class=\"card\">",
+            "  <div class=\"card-header\">",
+            "    Quote",
+            "  </div>",
+            "  <div class=\"card-body\">",
+            "    <blockquote class=\"blockquote mb-0\">",
+            "      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>",
+            "      <footer class=\"blockquote-footer\">Someone famous in <cite title=\"Source Title\">Source Title</cite></footer>",
+            "    </blockquote>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card blockquote (Bootstrap snippets)"
+    },
+    "Card footer (Bootstrap snippets)": {
+        "prefix": "b4-card-footer",
+        "body": ["<div class=\"card-footer text-muted\">$1</div>"],
+        "description": "Card footer (Bootstrap snippets)"
+    },
+    "Card navigation (Bootstrap snippets)": {
+        "prefix": "b4-card-nav",
+        "body": [
+            "<div class=\"card text-center\">",
+            "  <div class=\"card-header\">",
+            "    <ul class=\"nav nav-tabs card-header-tabs\">",
+            "      <li class=\"nav-item\">",
+            "        <a class=\"nav-link active\" href=\"#\">Active</a>",
+            "      </li>",
+            "      <li class=\"nav-item\">",
+            "        <a class=\"nav-link\" href=\"#\">Link</a>",
+            "      </li>",
+            "      <li class=\"nav-item\">",
+            "        <a class=\"nav-link disabled\" href=\"#\">Disabled</a>",
+            "      </li>",
+            "    </ul>",
+            "  </div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Special title treatment</h5>",
+            "    <p class=\"card-text\">With supporting text below as a natural lead-in to additional content.</p>",
+            "    <a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card navigation (Bootstrap snippets)"
+    },
+    "Card styles Background: blue, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-primary",
+        "body": [
+            "<div class=\"card text-white bg-primary mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Primary card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: blue, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: gray, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-secondary",
+        "body": [
+            "<div class=\"card text-white bg-secondary mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Secondary card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: gray, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: green, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-success",
+        "body": [
+            "<div class=\"card text-white bg-success mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Success card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: green, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: red, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-danger",
+        "body": [
+            "<div class=\"card text-white bg-danger mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Danger card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: red, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: yellow, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-warning",
+        "body": [
+            "<div class=\"card text-white bg-warning mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Warning card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: yellow, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: lght-blue, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-info",
+        "body": [
+            "<div class=\"card text-white bg-info mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Info card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: lght-blue, color: white (Bootstrap snippets)"
+    },
+    "Card styles Background: white, color: black (Bootstrap snippets)": {
+        "prefix": "b4-card-light",
+        "body": [
+            "<div class=\"card text-white bg-light mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Light card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: white, color: black (Bootstrap snippets)"
+    },
+    "Card styles Background: black, color: white (Bootstrap snippets)": {
+        "prefix": "b4-card-dark",
+        "body": [
+            "<div class=\"card text-white bg-dark mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Dark card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles Background: black, color: white (Bootstrap snippets)"
+    },
+    "Card border style primary (Bootstrap snippets)": {
+        "prefix": "b4-card-border-primary",
+        "body": [
+            "<div class=\"card border-primary mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-primary\">",
+            "    <h5 class=\"card-title\">Primary card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style primary (Bootstrap snippets)"
+    },
+    "Card border style secondary (Bootstrap snippets)": {
+        "prefix": "b4-card-border-secondary",
+        "body": [
+            "<div class=\"card border-secondary mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-secondary\">",
+            "    <h5 class=\"card-title\">Secondary card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style secondary (Bootstrap snippets)"
+    },
+    "Card border style success (Bootstrap snippets)": {
+        "prefix": "b4-card-border-success",
+        "body": [
+            "<div class=\"card border-success mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-success\">",
+            "    <h5 class=\"card-title\">Success card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style success (Bootstrap snippets)"
+    },
+    "Card border style danger (Bootstrap snippets)": {
+        "prefix": "b4-card-border-danger",
+        "body": [
+            "<div class=\"card border-danger mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-danger\">",
+            "    <h5 class=\"card-title\">Danger card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style danger (Bootstrap snippets)"
+    },
+    "Card border style warning (Bootstrap snippets)": {
+        "prefix": "b4-card-border-warning",
+        "body": [
+            "<div class=\"card border-warning mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-warning\">",
+            "    <h5 class=\"card-title\">Warning card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style warning (Bootstrap snippets)"
+    },
+    "Card border style info (Bootstrap snippets)": {
+        "prefix": "b4-card-border-info",
+        "body": [
+            "<div class=\"card border-info mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-info\">",
+            "    <h5 class=\"card-title\">Info card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style info (Bootstrap snippets)"
+    },
+    "Card border style light (Bootstrap snippets)": {
+        "prefix": "b4-card-border-light",
+        "body": [
+            "<div class=\"card border-light mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body\">",
+            "    <h5 class=\"card-title\">Light card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style light (Bootstrap snippets)"
+    },
+    "Card border style dark (Bootstrap snippets)": {
+        "prefix": "b4-card-border-dark",
+        "body": [
+            "<div class=\"card border-dark mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header\">Header</div>",
+            "  <div class=\"card-body text-dark\">",
+            "    <h5 class=\"card-title\">Dark card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card border style dark (Bootstrap snippets)"
+    },
+    "Card border, header, footer style change (Bootstrap snippets)": {
+        "prefix": "b4-card-mixin-utilitie",
+        "body": [
+            "<div class=\"card border-success mb-3\" style=\"max-width: 18rem;\">",
+            "  <div class=\"card-header bg-transparent border-success\">Header</div>",
+            "  <div class=\"card-body text-success\">",
+            "    <h5 class=\"card-title\">Success card title</h5>",
+            "    <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+            "  </div>",
+            "  <div class=\"card-footer bg-transparent border-success\">Footer</div>",
+            "</div>"
+        ],
+        "description": "Card border, header, footer style change (Bootstrap snippets)"
+    },
+    "Card styles for card groups (Bootstrap snippets)": {
+        "prefix": "b4-card-groups",
+        "body": [
+            "<div class=\"card-group\">",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles for card groups (Bootstrap snippets)"
+    },
+    "Card styles for card groups with footers (Bootstrap snippets)": {
+        "prefix": "b4-card-groups-footers",
+        "body": [
+            "<div class=\"card-group\">",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+            "    </div>",
+            "    <div class=\"card-footer\">",
+            "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+            "    </div>",
+            "    <div class=\"card-footer\">",
+            "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+            "    </div>",
+            "    <div class=\"card-footer\">",
+            "      <small class=\"text-muted\">Last updated 3 mins ago</small>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles for card groups with footers (Bootstrap snippets)"
+    },
+    "Card styles for card decks (Bootstrap snippets)": {
+        "prefix": "b4-card-decks",
+        "body": [
+            "<div class=\"card-deck\">",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This card has supporting text below as a natural lead-in to additional content.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"card\">",
+            "    <img class=\"card-img-top\" src=\"...\" alt=\"Card image cap\">",
+            "    <div class=\"card-body\">",
+            "      <h5 class=\"card-title\">Card title</h5>",
+            "      <p class=\"card-text\">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>",
+            "      <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Card styles for card decks (Bootstrap snippets)"
+    },
+    "Carousel with slides only (Bootstrap snippets)": {
+        "prefix": "b4-carousel",
+        "body": [
+            "<div id=\"carouselExampleSlidesOnly\" class=\"carousel slide\" data-ride=\"carousel\">",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"First slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Second slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Third slide\">",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Carousel with slides only (Bootstrap snippets)"
+    },
+    "Carousel with controls (Bootstrap snippets)": {
+        "prefix": "b4-carousel-controls",
+        "body": [
+            "<div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"First slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Second slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Third slide\">",
+            "    </div>",
+            "  </div>",
+            "  <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"sr-only\">Previous</span>",
+            "  </a>",
+            "  <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"sr-only\">Next</span>",
+            "  </a>",
+            "</div>"
+        ],
+        "description": "Carousel with controls (Bootstrap snippets)"
+    },
+    "Carousel with indicators (Bootstrap snippets)": {
+        "prefix": "b4-carousel-indicators",
+        "body": [
+            "<div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">",
+            "  <ol class=\"carousel-indicators\">",
+            "    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>",
+            "    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>",
+            "    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>",
+            "  </ol>",
+            "  <div class=\"carousel-inner\">",
+            "    <div class=\"carousel-item active\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"First slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Second slide\">",
+            "    </div>",
+            "    <div class=\"carousel-item\">",
+            "      <img class=\"d-block w-100\" src=\"...\" alt=\"Third slide\">",
+            "    </div>",
+            "  </div>",
+            "  <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">",
+            "    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"sr-only\">Previous</span>",
+            "  </a>",
+            "  <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">",
+            "    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>",
+            "    <span class=\"sr-only\">Next</span>",
+            "  </a>",
+            "</div>"
+        ],
+        "description": "Carousel with indicators (Bootstrap snippets)"
+    },
+    "Carousel with caption (Bootstrap snippets)": {
+        "prefix": "b4-carousel-caption",
+        "body": [
+            "<div class=\"carousel-item\">",
+            "  <img src=\"...\" alt=\"...\">",
+            "  <div class=\"carousel-caption d-none d-md-block\">",
+            "    <h5>...</h5>",
+            "    <p>...</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Carousel with caption (Bootstrap snippets)"
+    },
+    "Single button dropdowns (Bootstrap snippets)": {
+        "prefix": "b4-button-dropdown",
+        "body": [
+            "<div class=\"dropdown\">",
+            "  <button class=\"btn btn-secondary dropdown-toggle\" type=\"button\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+            "    Dropdown button",
+            "  </button>",
+            "  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">",
+            "    <a class=\"dropdown-item\" href=\"#\">Action</a>",
+            "    <a class=\"dropdown-item\" href=\"#\">Another action</a>",
+            "    <a class=\"dropdown-item\" href=\"#\">Something else here</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Single button dropdowns (Bootstrap snippets)"
+    },
+    "Single button dropdowns with <a> elements (Bootstrap snippets)": {
+        "prefix": "b4-button-dropdown-link",
+        "body": [
+            "<div class=\"dropdown show\">",
+            "  <a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+            "    Dropdown link",
+            "  </a>",
+            "",
+            "  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">",
+            "    <a class=\"dropdown-item\" href=\"#\">Action</a>",
+            "    <a class=\"dropdown-item\" href=\"#\">Another action</a>",
+            "    <a class=\"dropdown-item\" href=\"#\">Something else here</a>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Single button dropdowns with <a> elements (Bootstrap snippets)"
+    },
+    "Menu forms with dropdown (Bootstrap snippets)": {
+        "prefix": "b4-dropdown-menu",
+        "body": [
+            "<div class=\"dropdown-menu\">",
+            "  <form class=\"px-4 py-3\">",
+            "    <div class=\"form-group\">",
+            "      <label for=\"exampleDropdownFormEmail1\">Email address</label>",
+            "      <input type=\"email\" class=\"form-control\" id=\"exampleDropdownFormEmail1\" placeholder=\"email@example.com\">",
+            "    </div>",
+            "    <div class=\"form-group\">",
+            "      <label for=\"exampleDropdownFormPassword1\">Password</label>",
+            "      <input type=\"password\" class=\"form-control\" id=\"exampleDropdownFormPassword1\" placeholder=\"Password\">",
+            "    </div>",
+            "    <div class=\"form-check\">",
+            "      <input type=\"checkbox\" class=\"form-check-input\" id=\"dropdownCheck\">",
+            "      <label class=\"form-check-label\" for=\"dropdownCheck\">",
+            "        Remember me",
+            "      </label>",
+            "    </div>",
+            "    <button type=\"submit\" class=\"btn btn-primary\">Sign in</button>",
+            "  </form>",
+            "  <div class=\"dropdown-divider\"></div>",
+            "  <a class=\"dropdown-item\" href=\"#\">New around here? Sign up</a>",
+            "  <a class=\"dropdown-item\" href=\"#\">Forgot password?</a>",
+            "</div>"
+        ],
+        "description": "Menu forms with dropdown (Bootstrap snippets)"
+    },
+    "Active dropdown menu items (Bootstrap snippets)": {
+        "prefix": "b4-dropdown-menu-active",
+        "body": [
+            "<div class=\"dropdown-menu\">",
+            "  <a class=\"dropdown-item\" href=\"#\">Regular link</a>",
+            "  <a class=\"dropdown-item active\" href=\"#\">Active link</a>",
+            "  <a class=\"dropdown-item\" href=\"#\">Another link</a>",
+            "</div>"
+        ],
+        "description": "Active dropdown menu items (Bootstrap snippets)"
+    },
+    "Disabled dropdown menu items (Bootstrap snippets)": {
+        "prefix": "b4-dropdown-menu-disabled",
+        "body": [
+            "<div class=\"dropdown-menu\">",
+            "  <a class=\"dropdown-item\" href=\"#\">Regular link</a>",
+            "  <a class=\"dropdown-item disabled\" href=\"#\">Disabled link</a>",
+            "  <a class=\"dropdown-item\" href=\"#\">Another link</a>",
+            "</div>"
+        ],
+        "description": "Disabled dropdown menu items (Bootstrap snippets)"
+    },
+    "Basic form (Bootstrap snippets)": {
+        "prefix": "b4-form",
+        "body": [
+            "<form>",
+            "  <div class=\"form-row\">",
+            "    <div class=\"col-md-4 mb-3\">",
+            "      <label for=\"validationDefault01\">First name</label>",
+            "      <input type=\"text\" class=\"form-control\" id=\"validationDefault01\" placeholder=\"First name\" value=\"Mark\" required>",
+            "    </div>",
+            "    <div class=\"col-md-4 mb-3\">",
+            "      <label for=\"validationDefault02\">Last name</label>",
+            "      <input type=\"text\" class=\"form-control\" id=\"validationDefault02\" placeholder=\"Last name\" value=\"Otto\" required>",
+            "    </div>",
+            "    <div class=\"col-md-4 mb-3\">",
+            "      <label for=\"validationDefaultUsername\">Username</label>",
+            "      <div class=\"input-group\">",
+            "        <div class=\"input-group-prepend\">",
+            "          <span class=\"input-group-text\" id=\"inputGroupPrepend2\">@</span>",
+            "        </div>",
+            "        <input type=\"text\" class=\"form-control\" id=\"validationDefaultUsername\" placeholder=\"Username\" aria-describedby=\"inputGroupPrepend2\" required>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"form-row\">",
+            "    <div class=\"col-md-6 mb-3\">",
+            "      <label for=\"validationDefault03\">City</label>",
+            "      <input type=\"text\" class=\"form-control\" id=\"validationDefault03\" placeholder=\"City\" required>",
+            "    </div>",
+            "    <div class=\"col-md-3 mb-3\">",
+            "      <label for=\"validationDefault04\">State</label>",
+            "      <input type=\"text\" class=\"form-control\" id=\"validationDefault04\" placeholder=\"State\" required>",
+            "    </div>",
+            "    <div class=\"col-md-3 mb-3\">",
+            "      <label for=\"validationDefault05\">Zip</label>",
+            "      <input type=\"text\" class=\"form-control\" id=\"validationDefault05\" placeholder=\"Zip\" required>",
+            "    </div>",
+            "  </div>",
+            "  <div class=\"form-group\">",
+            "    <div class=\"form-check\">",
+            "      <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"invalidCheck2\" required>",
+            "      <label class=\"form-check-label\" for=\"invalidCheck2\">",
+            "        Agree to terms and conditions",
+            "      </label>",
+            "    </div>",
+            "  </div>",
+            "  <button class=\"btn btn-primary\" type=\"submit\">Submit form</button>",
+            "</form>"
+        ],
+        "description": "Basic form (Bootstrap snippets)"
+    },
+    "File inputs for form (Bootstrap snippets)": {
+        "prefix": "b4-form-control-file",
+        "body": ["<input type=\"file\" class=\"form-control-file\" id=\"exampleFormControlFile1\">"],
+        "description": "File inputs for form (Bootstrap snippets)"
+    },
+    "Basic radio buttons for form (Bootstrap snippets)": {
+        "prefix": "b4-form-button-radio",
+        "body": [
+            "<div class=\"form-check\">",
+            "  <input class=\"form-check-input\" type=\"radio\" name=\"exampleRadios\" id=\"exampleRadios1\" value=\"option1\" checked>",
+            "  <label class=\"form-check-label\" for=\"exampleRadios1\">",
+            "    Default radio",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-check\">",
+            "  <input class=\"form-check-input\" type=\"radio\" name=\"exampleRadios\" id=\"exampleRadios2\" value=\"option2\">",
+            "  <label class=\"form-check-label\" for=\"exampleRadios2\">",
+            "    Second default radio",
+            "  </label>",
+            "</div>",
+            "<div class=\"form-check disabled\">",
+            "  <input class=\"form-check-input\" type=\"radio\" name=\"exampleRadios\" id=\"exampleRadios3\" value=\"option3\" disabled>",
+            "  <label class=\"form-check-label\" for=\"exampleRadios3\">",
+            "    Disabled radio",
+            "  </label>",
+            "</div>"
+        ],
+        "description": "Basic radio buttons for form (Bootstrap snippets)"
+    },
+    "Basic input group (Bootstrap snippets)": {
+        "prefix": "b4-input-group",
+        "body": [
+            "<div class=\"input-group mb-3\">",
+            "  <div class=\"input-group-prepend\">",
+            "    <span class=\"input-group-text\" id=\"basic-addon1\">@</span>",
+            "  </div>",
+            "  <input type=\"text\" class=\"form-control\" placeholder=\"Username\" aria-label=\"Username\" aria-describedby=\"basic-addon1\">",
+            "</div>",
+            "",
+            "<div class=\"input-group mb-3\">",
+            "  <input type=\"text\" class=\"form-control\" placeholder=\"Recipient's username\" aria-label=\"Recipient's username\" aria-describedby=\"basic-addon2\">",
+            "  <div class=\"input-group-append\">",
+            "    <span class=\"input-group-text\" id=\"basic-addon2\">@example.com</span>",
+            "  </div>",
+            "</div>",
+            "",
+            "<label for=\"basic-url\">Your vanity URL</label>",
+            "<div class=\"input-group mb-3\">",
+            "  <div class=\"input-group-prepend\">",
+            "    <span class=\"input-group-text\" id=\"basic-addon3\">https://example.com/users/</span>",
+            "  </div>",
+            "  <input type=\"text\" class=\"form-control\" id=\"basic-url\" aria-describedby=\"basic-addon3\">",
+            "</div>",
+            "",
+            "<div class=\"input-group mb-3\">",
+            "  <div class=\"input-group-prepend\">",
+            "    <span class=\"input-group-text\">$</span>",
+            "  </div>",
+            "  <input type=\"text\" class=\"form-control\" aria-label=\"Amount (to the nearest dollar)\">",
+            "  <div class=\"input-group-append\">",
+            "    <span class=\"input-group-text\">.00</span>",
+            "  </div>",
+            "</div>",
+            "",
+            "<div class=\"input-group\">",
+            "  <div class=\"input-group-prepend\">",
+            "    <span class=\"input-group-text\">With textarea</span>",
+            "  </div>",
+            "  <textarea class=\"form-control\" aria-label=\"With textarea\"></textarea>",
+            "</div>"
+        ],
+        "description": "Basic input group (Bootstrap snippets)"
+    },
+    "Basic jumbotron (Bootstrap snippets)": {
+        "prefix": "b4-jumbotron",
+        "body": [
+            "<div class=\"jumbotron\">",
+            "  <h1 class=\"display-4\">Hello, world!</h1>",
+            "  <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>",
+            "  <hr class=\"my-4\">",
+            "  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>",
+            "  <p class=\"lead\">",
+            "    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>",
+            "  </p>",
+            "</div>"
+        ],
+        "description": "Basic jumbotron (Bootstrap snippets)"
+    },
+    "Jumbotron fluid (Bootstrap snippets)": {
+        "prefix": "b4-jumbotron-fluid",
+        "body": [
+            "<div class=\"jumbotron jumbotron-fluid\">",
+            "  <div class=\"container\">",
+            "    <h1 class=\"display-4\">Fluid jumbotron</h1>",
+            "    <p class=\"lead\">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Jumbotron fluid (Bootstrap snippets)"
+    },
+    "Basic list group (Bootstrap snippets)": {
+        "prefix": "b4-list-group",
+        "body": [
+            "<ul class=\"list-group\">",
+            "  <li class=\"list-group-item\">Cras justo odio</li>",
+            "  <li class=\"list-group-item\">Dapibus ac facilisis in</li>",
+            "  <li class=\"list-group-item\">Morbi leo risus</li>",
+            "  <li class=\"list-group-item\">Porta ac consectetur ac</li>",
+            "  <li class=\"list-group-item\">Vestibulum at eros</li>",
+            "</ul>"
+        ],
+        "description": "Basic list group (Bootstrap snippets)"
+    },
+    "Actionable list group items with hover, disabled, and active states (Bootstrap snippets)": {
+        "prefix": "b4-list-group-action",
+        "body": [
+            "<div class=\"list-group\">",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action active\">",
+            "    Cras justo odio",
+            "  </a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Dapibus ac facilisis in</a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Morbi leo risus</a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action\">Porta ac consectetur ac</a>",
+            "  <a href=\"#\" class=\"list-group-item list-group-item-action disabled\">Vestibulum at eros</a>",
+            "</div>"
+        ],
+        "description": "Actionable list group items with hover, disabled, and active states (Bootstrap snippets)"
+    },
+    "Primary list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-primary",
+        "body": [" <li class=\"list-group-item list-group-item-primary\">$1</li>"],
+        "description": "Primary list style (Bootstrap snippets)"
+    },
+    "Secondary list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-secondary",
+        "body": ["<li class=\"list-group-item list-group-item-secondary\">$1</li>"],
+        "description": "Secondary list style (Bootstrap snippets)"
+    },
+    "Success list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-success",
+        "body": ["<li class=\"list-group-item list-group-item-success\">$1</li>"],
+        "description": "Success list style (Bootstrap snippets)"
+    },
+    "Danger list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-danger",
+        "body": ["<li class=\"list-group-item list-group-item-danger\">$1</li>"],
+        "description": "Danger list style (Bootstrap snippets)"
+    },
+    "Warning list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-warning",
+        "body": ["<li class=\"list-group-item list-group-item-warning\">$1</li>"],
+        "description": "Warning list style (Bootstrap snippets)"
+    },
+    "Info list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-info",
+        "body": ["<li class=\"list-group-item list-group-item-info\">$1</li>"],
+        "description": "Info list style (Bootstrap snippets)"
+    },
+    "Light list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-light",
+        "body": ["<li class=\"list-group-item list-group-item-light\">$1</li>"],
+        "description": "Light list style (Bootstrap snippets)"
+    },
+    "Dark list style (Bootstrap snippets)": {
+        "prefix": "b4-list-group-item-dark",
+        "body": ["<li class=\"list-group-item list-group-item-dark\">$1</li>"],
+        "description": "Dark list style (Bootstrap snippets)"
+    },
+    "Basic modal (Bootstrap snippets)": {
+        "prefix": "b4-modal",
+        "body": [
+            "<div class=\"modal\" tabindex=\"-1\" role=\"dialog\">",
+            "  <div class=\"modal-dialog\" role=\"document\">",
+            "    <div class=\"modal-content\">",
+            "      <div class=\"modal-header\">",
+            "        <h5 class=\"modal-title\">Modal title</h5>",
+            "        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">",
+            "          <span aria-hidden=\"true\">&times;</span>",
+            "        </button>",
+            "      </div>",
+            "      <div class=\"modal-body\">",
+            "        <p>Modal body text goes here.</p>",
+            "      </div>",
+            "      <div class=\"modal-footer\">",
+            "        <button type=\"button\" class=\"btn btn-primary\">Save changes</button>",
+            "        <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close</button>",
+            "      </div>",
+            "    </div>",
+            "  </div>",
+            "</div>"
+        ],
+        "description": "Basic modal (Bootstrap snippets)"
+    },
+    "Basic navbar (Bootstrap snippets)": {
+        "prefix": "b4-navbar",
+        "body": [
+            "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
+            "  <a class=\"navbar-brand\" href=\"#\">Navbar</a>",
+            "  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "    <span class=\"navbar-toggler-icon\"></span>",
+            "  </button>",
+            "",
+            "  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">",
+            "    <ul class=\"navbar-nav mr-auto\">",
+            "      <li class=\"nav-item active\">",
+            "        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>",
+            "      </li>",
+            "      <li class=\"nav-item\">",
+            "        <a class=\"nav-link\" href=\"#\">Link</a>",
+            "      </li>",
+            "      <li class=\"nav-item dropdown\">",
+            "        <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">",
+            "          Dropdown",
+            "        </a>",
+            "        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">",
+            "          <a class=\"dropdown-item\" href=\"#\">Action</a>",
+            "          <a class=\"dropdown-item\" href=\"#\">Another action</a>",
+            "          <div class=\"dropdown-divider\"></div>",
+            "          <a class=\"dropdown-item\" href=\"#\">Something else here</a>",
+            "        </div>",
+            "      </li>",
+            "      <li class=\"nav-item\">",
+            "        <a class=\"nav-link disabled\" href=\"#\">Disabled</a>",
+            "      </li>",
+            "    </ul>",
+            "    <form class=\"form-inline my-2 my-lg-0\">",
+            "      <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">",
+            "      <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>",
+            "    </form>",
+            "  </div>",
+            "</nav>"
+        ],
+        "description": "Basic navbar (Bootstrap snippets)"
+    },
+    "Background color primary (Bootstrap snippets)": {
+        "prefix": "bg-primary",
+        "body": ["bg-primary"],
+        "description": "Background color primary (Bootstrap snippets)"
+    },
+    "Background color secondary (Bootstrap snippets)": {
+        "prefix": "bg-secondary",
+        "body": ["bg-secondary"],
+        "description": "Background color secondary (Bootstrap snippets)"
+    },
+    "Background color success (Bootstrap snippets)": {
+        "prefix": "bg-success",
+        "body": ["bg-success"],
+        "description": "Background color success (Bootstrap snippets)"
+    },
+    "Background color danger (Bootstrap snippets)": {
+        "prefix": "bg-danger",
+        "body": ["bg-danger"],
+        "description": "Background color danger (Bootstrap snippets)"
+    },
+    "Background color warning (Bootstrap snippets)": {
+        "prefix": "bg-warning",
+        "body": ["bg-warning"],
+        "description": "Background color warning (Bootstrap snippets)"
+    },
+    "Background color info (Bootstrap snippets)": {
+        "prefix": "bg-info",
+        "body": ["bg-info"],
+        "description": "Background color info (Bootstrap snippets)"
+    },
+    "Background color light (Bootstrap snippets)": {
+        "prefix": "bg-light",
+        "body": ["bg-light"],
+        "description": "Background color light (Bootstrap snippets)"
+    },
+    "Background color dark (Bootstrap snippets)": {
+        "prefix": "bg-dark",
+        "body": ["bg-dark"],
+        "description": "Background color dark (Bootstrap snippets)"
+    },
+    "Background color white (Bootstrap snippets)": {
+        "prefix": "bg-white",
+        "body": ["bg-white"],
+        "description": "Background color white (Bootstrap snippets)"
+    },
+    "Navbar collapse content (Bootstrap snippets)": {
+        "prefix": "b4-navbar-collapse",
+        "body": [
+            "<div class=\"pos-f-t\">",
+            "  <div class=\"collapse\" id=\"navbarToggleExternalContent\">",
+            "    <div class=\"bg-dark p-4\">",
+            "      <h4 class=\"text-white\">Collapsed content</h4>",
+            "      <span class=\"text-muted\">Toggleable via the navbar brand.</span>",
+            "    </div>",
+            "  </div>",
+            "  <nav class=\"navbar navbar-dark bg-dark\">",
+            "    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggleExternalContent\" aria-controls=\"navbarToggleExternalContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "      <span class=\"navbar-toggler-icon\"></span>",
+            "    </button>",
+            "  </nav>",
+            "</div>"
+        ],
+        "description": "Navbar collapse content (Bootstrap snippets)"
+    }
+}
