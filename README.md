@@ -104,7 +104,7 @@ For full tag autocomplete follow the instructions below:
 | b4-card-groups-footers    | ->  | Card styles for card groups with footers                     |
 | b4-card-decks             | ->  | Card styles for card decks                                   |
 
-# 6. Carousel
+# 7. Carousel
 
 | Trigger                | ->  | Description               |
 | ---------------------- | --- | ------------------------- |
@@ -113,7 +113,7 @@ For full tag autocomplete follow the instructions below:
 | b4-carousel-indicators | ->  | Carousel with indicators  |
 | b4-carousel-caption    | ->  | Carousel with caption     |
 
-# 7. Dropdown
+# 8. Dropdown
 
 | Trigger                   | ->  | Description                                 |
 | ------------------------- | --- | ------------------------------------------- |
@@ -123,7 +123,7 @@ For full tag autocomplete follow the instructions below:
 | b4-dropdown-menu-active   | ->  | Active dropdown menu items                  |
 | b4-dropdown-menu-disabled | ->  | Disabled dropdown menu items                |
 
-# 8. Form
+# 9. Form
 
 | Trigger              | ->  | Description                  |
 | -------------------- | --- | ---------------------------- |
@@ -132,14 +132,14 @@ For full tag autocomplete follow the instructions below:
 | b4-form-button-radio | ->  | Basic radio buttons for form |
 | b4-input-group       | ->  | Basic input group            |
 
-# 9. Jumbotron
+# 10. Jumbotron
 
 | Trigger            | ->  | Description     |
 | ------------------ | --- | --------------- |
 | b4-jumbotron       | ->  | Basic jumbotron |
 | b4-jumbotron-fluid | ->  | Jumbotron fluid |
 
-# 10. List group
+# 11. List group
 
 | Trigger                      | ->  | Description                                                         |
 | ---------------------------- | --- | ------------------------------------------------------------------- |
@@ -154,20 +154,20 @@ For full tag autocomplete follow the instructions below:
 | b4-list-group-item-light     | ->  | Light list style                                                    |
 | b4-list-group-item-dark      | ->  | Dark list style                                                     |
 
-# 11. Modal
+# 12. Modal
 
 | Trigger  | ->  | Description |
 | -------- | --- | ----------- |
 | b4-modal | ->  | Basic modal |
 
-# 12. Navbar
+# 13. Navbar
 
 | Trigger            | ->  | Description             |
 | ------------------ | --- | ----------------------- |
 | b4-navbar          | ->  | Basic navbar            |
 | b4-navbar-collapse | ->  | Navbar collapse content |
 
-# 12. Background color
+# 14. Background color
 
 | Trigger      | ->  | Description                |
 | ------------ | --- | -------------------------- |
