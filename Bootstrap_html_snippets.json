@@ -1,11 +1,12 @@
 {
-	// Bootstrap snippets for Visual Studio Code
+    // Bootstrap snippets for Visual Studio Code
     // Author: Md Daudul Islam <md.daudulislamsumon@gmail.com>
     // Creation Date: 20/11/2020
     // Update Date: 23/11/2020
     // Update Date: 24/11/2020
     // Update Date: 25/11/2020
     // Update Date: 26/11/2020
+    // Update Date: 07/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -1803,5 +1804,155 @@
             "</div>"
         ],
         "description": "Navbar collapse content (Bootstrap snippets)"
+    },
+    "Add .blockquote for equal-width columns (Bootstrap snippets)": {
+        "prefix": "col",
+        "body": ["col"],
+        "description": "Add .blockquote for equal-width columns (Bootstrap snippets)"
+    },
+    "Use .text-justify for easily realign text (Bootstrap snippets)": {
+        "prefix": "text-justify",
+        "body": ["text-justify"],
+        "description": "Use .text-justify for easily realign text (Bootstrap snippets)"
+    },
+    "Use .text-left for easily realign text (Bootstrap snippets)": {
+        "prefix": "text-left",
+        "body": ["text-left"],
+        "description": "Use .text-left for easily realign text (Bootstrap snippets)"
+    },
+    "Use .text-center for easily realign text (Bootstrap snippets)": {
+        "prefix": "text-center",
+        "body": ["text-center"],
+        "description": "Use .text-center for easily realign text (Bootstrap snippets)"
+    },
+    "Use .text-right for easily realign text (Bootstrap snippets)": {
+        "prefix": "text-right",
+        "body": ["text-right"],
+        "description": "Use .text-right for easily realign text (Bootstrap snippets)"
+    },
+    "Use .text-sm-left for easily realign text on viewports sized SM (small) or wider (Bootstrap snippets)": {
+        "prefix": "text-sm-left",
+        "body": ["text-sm-left"],
+        "description": "Use .text-sm-left for easily realign text on viewports sized SM (small) or wider (Bootstrap snippets)"
+    },
+    "Use .text-md-left for easily realign text on viewports sized MD (medium) or wider (Bootstrap snippets)": {
+        "prefix": "text-md-left",
+        "body": ["text-md-left"],
+        "description": "Use .text-md-left for easily realign text on viewports sized MD (medium) or wider (Bootstrap snippets)"
+    },
+    "Use .text-lg-left for easily realign text on viewports sized LG (large) or wider (Bootstrap snippets)": {
+        "prefix": "text-lg-left",
+        "body": ["text-lg-left"],
+        "description": "Use .text-lg-left for easily realign text on viewports sized LG (large) or wider (Bootstrap snippets)"
+    },
+    "Use .text-xl-left for easily realign text on viewports sized XL (extra-large) or wider (Bootstrap snippets)": {
+        "prefix": "text-xl-left",
+        "body": ["text-xl-left"],
+        "description": "Use .text-xl-left for easily realign text on viewports sized XL (extra-large) or wider (Bootstrap snippets)"
+    },
+    "Use .text-nowrap to prevent text from wrapping (Bootstrap snippets)": {
+        "prefix": "text-nowrap",
+        "body": ["text-nowrap"],
+        "description": "Use .text-nowrap to prevent text from wrapping (Bootstrap snippets)"
+    },
+    "Use .text-lowercase to transform text (Bootstrap snippets)": {
+        "prefix": "text-lowercase",
+        "body": ["text-lowercase"],
+        "description": "Use .text-lowercase to transform text (Bootstrap snippets)"
+    },
+    "Use .text-uppercase to transform text (Bootstrap snippets)": {
+        "prefix": "text-uppercase",
+        "body": ["text-uppercase"],
+        "description": "Use .text-uppercase to transform text (Bootstrap snippets)"
+    },
+    "Use .text-capitalize to transform text (Bootstrap snippets)": {
+        "prefix": "text-capitalize",
+        "body": ["text-capitalize"],
+        "description": "Use .text-capitalize to transform text (Bootstrap snippets)"
+    },
+    "Use .font-weight-bold to change font weight (Bootstrap snippets)": {
+        "prefix": "font-weight-bold",
+        "body": ["font-weight-bold"],
+        "description": "Use .font-weight-bold to change font weight (Bootstrap snippets)"
+    },
+    "Use .font-weight-normal to change font weight (Bootstrap snippets)": {
+        "prefix": "font-weight-normal",
+        "body": ["font-weight-normal"],
+        "description": "Use .font-weight-normal to change font weight (Bootstrap snippets)"
+    },
+    "Use .font-weight-light to change font weight (Bootstrap snippets)": {
+        "prefix": "font-weight-light",
+        "body": ["font-weight-light"],
+        "description": "Use .font-weight-light to change font weight (Bootstrap snippets)"
+    },
+    "Use .font-italic to change font weight (Bootstrap snippets)": {
+        "prefix": "font-italic",
+        "body": ["font-italic"],
+        "description": "Use .font-italic to change font weight (Bootstrap snippets)"
+    },
+    "Use .w-25 for Width 25% (Bootstrap snippets)": {
+        "prefix": "w-25",
+        "body": ["w-25"],
+        "description": "Use .w-25 for Width 25% (Bootstrap snippets)"
+    },
+    "Use .w-50 for Width 50% (Bootstrap snippets)": {
+        "prefix": "w-50",
+        "body": ["w-50"],
+        "description": "Use .w-50 for Width 50% (Bootstrap snippets)"
+    },
+    "Use .w-75 for Width 75% (Bootstrap snippets)": {
+        "prefix": "w-75",
+        "body": ["w-75"],
+        "description": "Use .w-75 for Width 75% (Bootstrap snippets)"
+    },
+    "Use .w-100 for Width 100% (Bootstrap snippets)": {
+        "prefix": "w-100",
+        "body": ["w-100"],
+        "description": "Use .w-100 for Width 100% (Bootstrap snippets)"
+    },
+    "Use .h-25 for Height 25% (Bootstrap snippets)": {
+        "prefix": "h-25",
+        "body": ["h-25"],
+        "description": "Use .h-25 for Height 25% (Bootstrap snippets)"
+    },
+    "Use .h-50 for Height 50% (Bootstrap snippets)": {
+        "prefix": "h-50",
+        "body": ["h-50"],
+        "description": "Use .h-50 for Height 50% (Bootstrap snippets)"
+    },
+    "Use .h-75 for Height 75% (Bootstrap snippets)": {
+        "prefix": "h-75",
+        "body": ["h-75"],
+        "description": "Use .h-75 for Height 75% (Bootstrap snippets)"
+    },
+    "Use .h-100 for Height 100% (Bootstrap snippets)": {
+        "prefix": "h-100",
+        "body": ["h-100"],
+        "description": "Use .h-100 for Height 100% (Bootstrap snippets)"
+    },
+    "Use .mw-100 for max-width: 100% (Bootstrap snippets)": {
+        "prefix": "mw-100",
+        "body": ["mw-100"],
+        "description": "Use .mw-100 for max-width: 100% (Bootstrap snippets)"
+    },
+    "Use .mh-100 for max-height: 100% (Bootstrap snippets)": {
+        "prefix": "mh-100",
+        "body": ["mh-100"],
+        "description": "Use .mh-100 for max-height: 100% (Bootstrap snippets)"
+    },
+    "Use .float-left to float an element to the left (Bootstrap snippets)": {
+        "prefix": "float-left",
+        "body": ["float-left"],
+        "description": "Use .float-left to float an element to the left (Bootstrap snippets)"
+    },
+    "Use .float-right to float an element to the right (Bootstrap snippets)": {
+        "prefix": "float-right",
+        "body": ["float-right"],
+        "description": "Use .float-right to float an element to the right (Bootstrap snippets)"
+    },
+    "Use .float-none to disable floating (Bootstrap snippets)": {
+        "prefix": "float-none",
+        "body": ["float-none"],
+        "description": "Use .float-none to disable floating (Bootstrap snippets)"
     }
 }
