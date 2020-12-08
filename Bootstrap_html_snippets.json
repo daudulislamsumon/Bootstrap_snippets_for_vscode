@@ -2020,5 +2020,60 @@
         "prefix": "rounded-0",
         "body": ["rounded-0"],
         "description": "Use .rounded-0 to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .d-flex to quickly manage the layout, alignment, and sizing of grid columns (Bootstrap snippets)": {
+        "prefix": "d-flex",
+        "body": ["d-flex"],
+        "description": "Use .d-flex to quickly manage the layout, alignment, and sizing of grid columns (Bootstrap snippets)"
+    },
+    "Use .align-items-start on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "align-items-start",
+        "body": ["align-items-start"],
+        "description": "Use .align-items-start on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .align-items-end on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "align-items-end",
+        "body": ["align-items-end"],
+        "description": "Use .align-items-end on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .align-items-center on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "align-items-center",
+        "body": ["align-items-center"],
+        "description": "Use .align-items-center on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .align-items-baseline on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "align-items-baseline",
+        "body": ["align-items-baseline"],
+        "description": "Use .align-items-baseline on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .align-items-stretch on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "align-items-stretch",
+        "body": ["align-items-stretch"],
+        "description": "Use .align-items-stretch on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .justify-content-start on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "justify-content-start",
+        "body": ["justify-content-start"],
+        "description": "Use .justify-content-start on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .justify-content-end on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "justify-content-end",
+        "body": ["justify-content-end"],
+        "description": "Use .justify-content-end on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .justify-content-center on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "justify-content-center",
+        "body": ["justify-content-center"],
+        "description": "Use .justify-content-center on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .justify-content-between on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "justify-content-between",
+        "body": ["justify-content-between"],
+        "description": "Use .justify-content-between on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Use .justify-content-around on flexbox containers to change the alignment of flex items (Bootstrap snippets)": {
+        "prefix": "justify-content-around",
+        "body": ["justify-content-around"],
+        "description": "Use .justify-content-around on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
     }
 }
