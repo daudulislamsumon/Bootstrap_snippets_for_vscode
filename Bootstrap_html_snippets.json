@@ -7,6 +7,7 @@
     // Update Date: 25/11/2020
     // Update Date: 26/11/2020
     // Update Date: 07/12/2020
+    // Update Date: 08/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -1954,5 +1955,70 @@
         "prefix": "float-none",
         "body": ["float-none"],
         "description": "Use .float-none to disable floating (Bootstrap snippets)"
+    },
+    "Use .align-baseline for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-baseline",
+        "body": ["align-baseline"],
+        "description": "Use .align-baseline for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .align-top for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-top",
+        "body": ["align-top"],
+        "description": "Use .align-top for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .align-middle for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-middle",
+        "body": ["align-middle"],
+        "description": "Use .align-middle for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .align-bottom for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-bottom",
+        "body": ["align-bottom"],
+        "description": "Use .align-bottom for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .align-text-top for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-text-top",
+        "body": ["align-text-top"],
+        "description": "Use .align-text-top for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .align-text-bottom for Vertical alignment (Bootstrap snippets)": {
+        "prefix": "align-text-bottom",
+        "body": ["align-text-bottom"],
+        "description": "Use .align-text-bottom for Vertical alignment (Bootstrap snippets)"
+    },
+    "Use .rounded to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded",
+        "body": ["rounded"],
+        "description": "Use .rounded to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-top to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-top",
+        "body": ["rounded-top"],
+        "description": "Use .rounded-top to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-right to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-right",
+        "body": ["rounded-right"],
+        "description": "Use .rounded-right to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-bottom to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-bottom",
+        "body": ["rounded-bottom"],
+        "description": "Use .rounded-bottom to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-left to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-left",
+        "body": ["rounded-left"],
+        "description": "Use .rounded-left to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-circle to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-circle",
+        "body": ["rounded-circle"],
+        "description": "Use .rounded-circle to an element to easily round its corners (Bootstrap snippets)"
+    },
+    "Use .rounded-0 to an element to easily round its corners (Bootstrap snippets)": {
+        "prefix": "rounded-0",
+        "body": ["rounded-0"],
+        "description": "Use .rounded-0 to an element to easily round its corners (Bootstrap snippets)"
     }
 }
