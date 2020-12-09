@@ -8,6 +8,7 @@
     // Update Date: 26/11/2020
     // Update Date: 07/12/2020
     // Update Date: 08/12/2020
+    // Update Date: 09/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -114,6 +115,11 @@
         "body": ["alert-dark"],
         "description": "This is a dark alert—check it out! (Bootstrap snippets)"
     },
+    "m- for classes that set margin (Bootstrap snippets)": {
+        "prefix": "m-",
+        "body": ["m-$1"],
+        "description": "m- for classes that set margin (Bootstrap snippets)"
+    },
     "mt- for classes that set margin-top (Bootstrap snippets)": {
         "prefix": "mt-",
         "body": ["mt-$1"],
@@ -143,6 +149,11 @@
         "prefix": "my-",
         "body": ["my-$1"],
         "description": "my- for classes that set both *-top and *-bottom (Bootstrap snippets)"
+    },
+    "p- for classes that set padding (Bootstrap snippets)": {
+        "prefix": "p-",
+        "body": ["p-$1"],
+        "description": "p- for classes that set padding (Bootstrap snippets)"
     },
     "pt- for classes that set padding-top (Bootstrap snippets)": {
         "prefix": "pt-",
@@ -174,10 +185,10 @@
         "body": ["py-$1"],
         "description": "py- for classes that set both *-top and *-bottom (Bootstrap snippets)"
     },
-    "Bootstrap also includes an .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)": {
+    "Use .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)": {
         "prefix": "mx-auto",
         "body": ["mx-auto"],
-        "description": "Bootstrap also includes an .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)"
+        "description": "Use .mx-auto class for horizontally centering fixed-width block level content (Bootstrap snippets)"
     },
     "h1. Bootstrap heading (Bootstrap snippets)": {
         "prefix": "h1",
