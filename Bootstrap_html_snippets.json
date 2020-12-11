@@ -9,6 +9,7 @@
     // Update Date: 07/12/2020
     // Update Date: 08/12/2020
     // Update Date: 09/12/2020
+    // Update Date: 11/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2086,5 +2087,40 @@
         "prefix": "justify-content-around",
         "body": ["justify-content-around"],
         "description": "Use .justify-content-around on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
+    },
+    "Navbars require a wrapping .navbar class (Bootstrap snippets)": {
+        "prefix": "navbar",
+        "body": ["navbar"],
+        "description": "Navbars require a wrapping .navbar class (Bootstrap snippets)"
+    },
+    "Use .navbar-expand for responsive collapsing (Bootstrap snippets)": {
+        "prefix": "navbar-expand",
+        "body": ["navbar-expand-$1"],
+        "description": "Use .navbar-expand for responsive collapsing (Bootstrap snippets)"
+    },
+    "Use .navbar-light to set light background with dark text (Bootstrap snippets)": {
+        "prefix": "navbar-light",
+        "body": ["navbar-light"],
+        "description": "Use .navbar-light to set light background with dark text (Bootstrap snippets)"
+    },
+    "Use .navbar-brand for your company, product, or project name (Bootstrap snippets)": {
+        "prefix": "navbar-brand",
+        "body": ["navbar-brand"],
+        "description": "Use .navbar-brand for your company, product, or project name (Bootstrap snippets)"
+    },
+    "Use .navbar-nav for a full-height and lightweight navigation (including support for dropdowns) (Bootstrap snippets)": {
+        "prefix": "navbar-nav",
+        "body": ["navbar-nav"],
+        "description": "Use .navbar-nav for a full-height and lightweight navigation (including support for dropdowns) (Bootstrap snippets)"
+    },
+    "Use .navbar-toggler for use with our collapse plugin and other navigation toggling behaviors (Bootstrap snippets)": {
+        "prefix": "navbar-toggler",
+        "body": ["navbar-toggler"],
+        "description": "Use .navbar-toggler for use with our collapse plugin and other navigation toggling behaviors (Bootstrap snippets)"
+    },
+    "Use .navbar-text for adding vertically centered strings of text (Bootstrap snippets)": {
+        "prefix": "navbar-text",
+        "body": ["navbar-text"],
+        "description": "Use .navbar-text for adding vertically centered strings of text (Bootstrap snippets)"
     }
 }
