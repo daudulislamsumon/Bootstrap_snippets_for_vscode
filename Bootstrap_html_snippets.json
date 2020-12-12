@@ -10,6 +10,7 @@
     // Update Date: 08/12/2020
     // Update Date: 09/12/2020
     // Update Date: 11/12/2020
+    // Update Date: 12/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2122,5 +2123,25 @@
         "prefix": "navbar-text",
         "body": ["navbar-text"],
         "description": "Use .navbar-text for adding vertically centered strings of text (Bootstrap snippets)"
+    },
+    "Use .nav-item for navigation items (Bootstrap snippets)": {
+        "prefix": "nav-item",
+        "body": ["nav-item"],
+        "description": "Use .nav-item for navigation items (Bootstrap snippets)"
+    },
+    "Use .nav-link for nav anchor tag (Bootstrap snippets)": {
+        "prefix": "nav-link",
+        "body": ["nav-link"],
+        "description": "Use .nav-link for nav anchor tag (Bootstrap snippets)"
+    },
+    "Use .active for active state of nav (Bootstrap snippets)": {
+        "prefix": "active",
+        "body": ["active"],
+        "description": "Use .active for active state of nav (Bootstrap snippets)"
+    },
+    "Use .disabled for disable a state of nav (Bootstrap snippets)": {
+        "prefix": "disabled",
+        "body": ["disabled"],
+        "description": "Use .disabled for disable a state of nav (Bootstrap snippets)"
     }
 }
