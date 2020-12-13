@@ -11,6 +11,7 @@
     // Update Date: 09/12/2020
     // Update Date: 11/12/2020
     // Update Date: 12/12/2020
+    // Update Date: 13/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2143,5 +2144,50 @@
         "prefix": "disabled",
         "body": ["disabled"],
         "description": "Use .disabled for disable a state of nav (Bootstrap snippets)"
+    },
+    "Use .collapse to trigger hidden content elsewhere on the page (Bootstrap snippets)": {
+        "prefix": "collapse",
+        "body": ["collapse"],
+        "description": "Use .collapse to trigger hidden content elsewhere on the page (Bootstrap snippets)"
+    },
+    "Use data-bs-toggle attribute to use the collapse plugin (Bootstrap snippets)": {
+        "prefix": "data-bs-toggle",
+        "body": ["data-bs-toggle=\"$1\""],
+        "description": "Use data-bs-toggle attribute to use the collapse plugin (Bootstrap snippets)"
+    },
+    "Use data-bs-target attribute to collapse plugin that use id attribute (Bootstrap snippets)": {
+        "prefix": "data-bs-target",
+        "body": ["data-bs-target=\"$1\""],
+        "description": "Use data-bs-target attribute to collapse plugin that use id attribute (Bootstrap snippets)"
+    },
+    "Use .navbar-toggler-icon to get toggle icon (Bootstrap snippets)": {
+        "prefix": "navbar-toggler-icon",
+        "body": ["navbar-toggler-icon"],
+        "description": "Use .navbar-toggler-icon to get toggle icon (Bootstrap snippets)"
+    },
+    "Use .navbar-collapse for grouping and hiding navbar contents by a parent breakpoint (Bootstrap snippets)": {
+        "prefix": "navbar-collapse",
+        "body": ["navbar-collapse"],
+        "description": "Use .navbar-collapse for grouping and hiding navbar contents by a parent breakpoint (Bootstrap snippets)"
+    },
+    "Use .mr-auto for pushing items to the right (Bootstrap snippets)": {
+        "prefix": "mr-auto",
+        "body": ["mr-auto"],
+        "description": "Use .mr-auto for pushing items to the right (Bootstrap snippets)"
+    },
+    "Use .ml-auto for pushing items to the left (Bootstrap snippets)": {
+        "prefix": "ml-auto",
+        "body": ["ml-auto"],
+        "description": "Use .ml-auto for pushing items to the left (Bootstrap snippets)"
+    },
+    "Visible on all, sets display: inline; (Bootstrap snippets)": {
+        "prefix": "d-inline",
+        "body": ["d-inline"],
+        "description": "Visible on all, sets display: inline; (Bootstrap snippets)"
+    },
+    "Visible on all, sets display: inline-block; (Bootstrap snippets)": {
+        "prefix": "d-inline-block",
+        "body": ["d-inline-block"],
+        "description": "Visible on all, sets display: inline-block; (Bootstrap snippets)"
     }
 }
