@@ -12,6 +12,7 @@
     // Update Date: 11/12/2020
     // Update Date: 12/12/2020
     // Update Date: 13/12/2020
+    // Update Date: 14/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2105,6 +2106,11 @@
         "body": ["navbar-light"],
         "description": "Use .navbar-light to set light background with dark text (Bootstrap snippets)"
     },
+    "Use .navbar-dark to set dark background with dark text (Bootstrap snippets)": {
+        "prefix": "navbar-dark",
+        "body": ["navbar-dark"],
+        "description": "Use .navbar-dark to set dark background with dark text (Bootstrap snippets)"
+    },
     "Use .navbar-brand for your company, product, or project name (Bootstrap snippets)": {
         "prefix": "navbar-brand",
         "body": ["navbar-brand"],
@@ -2189,5 +2195,45 @@
         "prefix": "d-inline-block",
         "body": ["d-inline-block"],
         "description": "Visible on all, sets display: inline-block; (Bootstrap snippets)"
+    },
+    "Use .position-static that sets position: static; (Bootstrap snippets)": {
+        "prefix": "position-static",
+        "body": ["position-static"],
+        "description": "Use .position-static that sets position: static; (Bootstrap snippets)"
+    },
+    "Use .position-relative that sets position: relative; (Bootstrap snippets)": {
+        "prefix": "position-relative",
+        "body": ["position-relative"],
+        "description": "Use .position-relative that sets position: relative; (Bootstrap snippets)"
+    },
+    "Use .position-absolute that sets position: absolute; (Bootstrap snippets)": {
+        "prefix": "position-absolute",
+        "body": ["position-absolute"],
+        "description": "Use .position-absolute that sets position: absolute; (Bootstrap snippets)"
+    },
+    "Use .position-fixed that sets position: fixed; (Bootstrap snippets)": {
+        "prefix": "position-fixed",
+        "body": ["position-fixed"],
+        "description": "Use .position-fixed that sets position: fixed; (Bootstrap snippets)"
+    },
+    "Use .position-sticky that sets position: sticky; (Bootstrap snippets)": {
+        "prefix": "position-sticky",
+        "body": ["position-sticky"],
+        "description": "Use .position-sticky that sets position: sticky; (Bootstrap snippets)"
+    },
+    "Use .fixed-top to position an element at the top of the viewport, from edge to edge (Bootstrap snippets)": {
+        "prefix": "fixed-top",
+        "body": ["fixed-top"],
+        "description": "Use .fixed-top to position an element at the top of the viewport, from edge to edge (Bootstrap snippets)"
+    },
+    "Use .fixed-bottom to position an element at the bottom of the viewport, from edge to edge (Bootstrap snippets)": {
+        "prefix": "fixed-bottom",
+        "body": ["fixed-bottom"],
+        "description": "Use .fixed-bottom to position an element at the bottom of the viewport, from edge to edge (Bootstrap snippets)"
+    },
+    "Use .sticky-top to position an element at the top of the viewport, from edge to edge, but only after you scroll past it (Bootstrap snippets)": {
+        "prefix": "sticky-top",
+        "body": ["sticky-top"],
+        "description": "Use .sticky-top to position an element at the top of the viewport, from edge to edge, but only after you scroll past it (Bootstrap snippets)"
     }
 }
