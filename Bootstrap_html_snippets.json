@@ -13,6 +13,7 @@
     // Update Date: 12/12/2020
     // Update Date: 13/12/2020
     // Update Date: 14/12/2020
+    // Update Date: 22/12/2020
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2235,5 +2236,10 @@
         "prefix": "sticky-top",
         "body": ["sticky-top"],
         "description": "Use .sticky-top to position an element at the top of the viewport, from edge to edge, but only after you scroll past it (Bootstrap snippets)"
+    },
+    "Use .btn class to create button (Bootstrap snippets)": {
+        "prefix": "btn",
+        "body": ["btn"],
+        "description": "Use .btn class to create button (Bootstrap snippets)"
     }
 }
