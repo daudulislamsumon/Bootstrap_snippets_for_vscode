@@ -14,6 +14,7 @@
     // Update Date: 13/12/2020
     // Update Date: 14/12/2020
     // Update Date: 22/12/2020
+    // Update Date: 18/11/2021
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -659,6 +660,11 @@
         "prefix": "form-inline",
         "body": ["form-inline"],
         "description": "Use the .form-inline class to display a series of labels, form controls, and buttons on a single horizontal row (Bootstrap snippets)"
+    },
+    "Use .jumbotron modifier class and create a jumbotron box (Bootstrap snippets)": {
+        "prefix": "jumbotron",
+        "body": ["jumbotron"],
+        "description": "Use .jumbotron modifier class and create a jumbotron box (Bootstrap snippets)"
     },
     "Use .jumbotron-fluid modifier class and add a .container or .container-fluid within (Bootstrap snippets)": {
         "prefix": "jumbotron-fluid",
