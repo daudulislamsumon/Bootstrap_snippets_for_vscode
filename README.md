@@ -181,6 +181,20 @@ For full tag autocomplete follow the instructions below:
 | bg-dark      | ->  | Background color dark      |
 | bg-white     | ->  | Background color white     |
 
+# 15. Text color
+
+| Trigger        | ->  | Description          |
+| -------------- | --- | -------------------- |
+| text-muted     | ->  | text color Light     |
+| text-white     | ->  | text color White     |
+| text-dark      | ->  | text color dark      |
+| text-info      | ->  | text color info      |
+| text-warning   | ->  | text color warning   |
+| text-danger    | ->  | text color danger    |
+| text-success   | ->  | text color success   |
+| text-secondary | ->  | text color secondary |
+| text-primary   | ->  | text color primary   |
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
