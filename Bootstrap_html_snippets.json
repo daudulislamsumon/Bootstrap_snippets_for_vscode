@@ -2303,5 +2303,25 @@
         "prefix": "text-dark",
         "body": ["text-dark"],
         "description": "Use the .text-dark for dark colored text (Bootstrap snippets)"
+    },
+    "Use .progress class to create a default progress bar (Bootstrap snippets)": {
+        "prefix": "progress",
+        "body": ["progress"],
+        "description": "Use .progress class to create a default progress bar (Bootstrap snippets)"
+    },
+    "Use .progress-bar lass to its child element (Bootstrap snippets)": {
+        "prefix": "progress-bar",
+        "body": ["progress-bar"],
+        "description": "Use .progress-bar lass to its child element (Bootstrap snippets)"
+    },
+    "Use the .progress-bar-striped class to add stripes to the progress bars (Bootstrap snippets)": {
+        "prefix": "progress-bar-striped",
+        "body": ["progress-bar-striped"],
+        "description": "Use the .progress-bar-striped class to add stripes to the progress bars (Bootstrap snippets)"
+    },
+    "Use .progress-bar-animated class to animate the progress bar (Bootstrap snippets)": {
+        "prefix": "progress-bar-animated",
+        "body": ["progress-bar-animated"],
+        "description": "Use .progress-bar-animated class to animate the progress bar (Bootstrap snippets)"
     }
 }
