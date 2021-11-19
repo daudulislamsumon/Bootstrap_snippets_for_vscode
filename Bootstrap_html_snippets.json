@@ -15,6 +15,7 @@
     // Update Date: 14/12/2020
     // Update Date: 22/12/2020
     // Update Date: 18/11/2021
+    // Update Date: 19/11/2021
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -550,6 +551,16 @@
         "prefix": "btn-group",
         "body": ["btn-group"],
         "description": "Wrap a series of buttons with .btn in .btn-group (Bootstrap snippets)"
+    },
+    "Use .spinner-border to create a spinner/loader (Bootstrap snippets)": {
+        "prefix": "spinner-border",
+        "body": ["spinner-border"],
+        "description": "Use .spinner-border to create a spinner/loader (Bootstrap snippets)"
+    },
+    "Use the .spinner-grow class if you want the spinner/loader to grow (Bootstrap snippets)": {
+        "prefix": "spinner-grow",
+        "body": ["spinner-grow"],
+        "description": "Use the .spinner-grow class if you want the spinner/loader to grow (Bootstrap snippets)"
     },
     "A card is a flexible and extensible content container (Bootstrap snippets)": {
         "prefix": "card",
@@ -2247,5 +2258,50 @@
         "prefix": "btn",
         "body": ["btn"],
         "description": "Use .btn class to create button (Bootstrap snippets)"
+    },
+    "Use the .text-muted for light dark text (Bootstrap snippets)": {
+        "prefix": "text-muted",
+        "body": ["text-muted"],
+        "description": "Use the .text-muted for light dark text (Bootstrap snippets)"
+    },
+    "Use the .text-primary for primary colored text (Bootstrap snippets)": {
+        "prefix": "text-primary",
+        "body": ["text-primary"],
+        "description": "Use the .text-primary for primary colored text (Bootstrap snippets)"
+    },
+    "Use the .text-success for success colored text (Bootstrap snippets)": {
+        "prefix": "text-success",
+        "body": ["text-success"],
+        "description": "Use the .text-success for success colored text (Bootstrap snippets)"
+    },
+    "Use the .text-info for info colored text (Bootstrap snippets)": {
+        "prefix": "text-info",
+        "body": ["text-info"],
+        "description": "Use the .text-info for info colored text (Bootstrap snippets)"
+    },
+    "Use the .text-warning for warning colored text (Bootstrap snippets)": {
+        "prefix": "text-warning",
+        "body": ["text-warning"],
+        "description": "Use the .text-warning for warning colored text (Bootstrap snippets)"
+    },
+    "Use the .text-danger for danger colored text (Bootstrap snippets)": {
+        "prefix": "text-danger",
+        "body": ["text-danger"],
+        "description": "Use the .text-danger for danger colored text (Bootstrap snippets)"
+    },
+    "Use the .text-secondary for secondary colored text (Bootstrap snippets)": {
+        "prefix": "text-secondary",
+        "body": ["text-secondary"],
+        "description": "Use the .text-secondary for secondary colored text (Bootstrap snippets)"
+    },
+    "Use the .text-white for white colored text (Bootstrap snippets)": {
+        "prefix": "text-white",
+        "body": ["text-white"],
+        "description": "Use the .text-white for white colored text (Bootstrap snippets)"
+    },
+    "Use the .text-dark for dark colored text (Bootstrap snippets)": {
+        "prefix": "text-dark",
+        "body": ["text-dark"],
+        "description": "Use the .text-dark for dark colored text (Bootstrap snippets)"
     }
 }
