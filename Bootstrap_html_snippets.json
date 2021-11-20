@@ -17,6 +17,7 @@
     // Update Date: 18/11/2021
     // Update Date: 19/11/2021
     // Update Date: 20/11/2021
+    // Update Date: 21/11/2021
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2115,10 +2116,25 @@
         "body": ["justify-content-around"],
         "description": "Use .justify-content-around on flexbox containers to change the alignment of flex items (Bootstrap snippets)"
     },
+    "Use .nav class to create a simple horizontal menu (Bootstrap snippets)": {
+        "prefix": "nav",
+        "body": ["nav"],
+        "description": "Use .nav class to create a simple horizontal menu (Bootstrap snippets)"
+    },
     "Navbars require a wrapping .navbar class (Bootstrap snippets)": {
         "prefix": "navbar",
         "body": ["navbar"],
         "description": "Navbars require a wrapping .navbar class (Bootstrap snippets)"
+    },
+    "Use .nav-pills class to turn the nav menu into navigation pills (Bootstrap snippets)": {
+        "prefix": "nav-pills",
+        "body": ["nav-pills"],
+        "description": "Use .nav-pills class to turn the nav menu into navigation pills (Bootstrap snippets)"
+    },
+    "Use .flex-column class to create a vertical nav (Bootstrap snippets)": {
+        "prefix": "flex-column",
+        "body": ["flex-column"],
+        "description": "Use .flex-column class to create a vertical nav (Bootstrap snippets)"
     },
     "Use .navbar-expand for responsive collapsing (Bootstrap snippets)": {
         "prefix": "navbar-expand",
