@@ -16,6 +16,7 @@
     // Update Date: 22/12/2020
     // Update Date: 18/11/2021
     // Update Date: 19/11/2021
+    // Update Date: 20/11/2021
 
     "Containers are the most basic layout element in Bootstrap and are required when using our default grid system (Bootstrap snippets)": {
         "prefix": "container",
@@ -2323,5 +2324,30 @@
         "prefix": "progress-bar-animated",
         "body": ["progress-bar-animated"],
         "description": "Use .progress-bar-animated class to animate the progress bar (Bootstrap snippets)"
+    },
+    "Use .pagination class to create a basic pagination (Bootstrap snippets)": {
+        "prefix": "pagination",
+        "body": ["pagination"],
+        "description": "Use .pagination class to create a basic pagination (Bootstrap snippets)"
+    },
+    "Use .page-item class to create a basic pagination. Use .page-item to each <li> element (Bootstrap snippets)": {
+        "prefix": "pagination",
+        "body": ["pagination"],
+        "description": "Use .page-item class to create a basic pagination. Use .page-item to each <li> element (Bootstrap snippets)"
+    },
+    "Use .page-link class to create a basic pagination. Use .page-link class to each link inside <li> (Bootstrap snippets)": {
+        "prefix": "page-link",
+        "body": ["page-link"],
+        "description": "Use .page-link class to create a basic pagination. Use .page-link class to each link inside <li> (Bootstrap snippets)"
+    },
+    "Use .active class is used to highlight the current page (Bootstrap snippets)": {
+        "prefix": "active",
+        "body": ["active"],
+        "description": "Use .active class is used to highlight the current page (Bootstrap snippets)"
+    },
+    "Use .disabled class is used for un-clickable links (Bootstrap snippets)": {
+        "prefix": "disabled",
+        "body": ["disabled"],
+        "description": "Use .disabled class is used for un-clickable links (Bootstrap snippets)"
     }
 }
