@@ -578,6 +578,11 @@
         "body": ["card-body"],
         "description": "Use .card-body class to provide card-body style (Bootstrap snippets)"
     },
+    "Use .card-footer class to provide card-footer style (Bootstrap snippets)": {
+        "prefix": "card-footer",
+        "body": ["card-footer"],
+        "description": "Use .card-footer class to provide card-footer style (Bootstrap snippets)"
+    },
     "Use .card-title class to provide card-title style (Bootstrap snippets)": {
         "prefix": "card-title",
         "body": ["card-title"],
@@ -2359,5 +2364,15 @@
         "prefix": "pagination-sm",
         "body": ["pagination-sm"],
         "description": "Use .pagination-sm for smaller blocks in pagination (Bootstrap snippets)"
+    },
+    "Use .list-group class to create a basic list group (Bootstrap snippets)": {
+        "prefix": "list-group",
+        "body": ["list-group"],
+        "description": "Use .list-group class to create a basic list group (Bootstrap snippets)"
+    },
+    "Use .list-group-item class to create a basic list group (Bootstrap snippets)": {
+        "prefix": "list-group-item",
+        "body": ["list-group-item"],
+        "description": "Use .list-group-item class to create a basic list group (Bootstrap snippets)"
     }
 }
