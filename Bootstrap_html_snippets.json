@@ -2349,5 +2349,15 @@
         "prefix": "disabled",
         "body": ["disabled"],
         "description": "Use .disabled class is used for un-clickable links (Bootstrap snippets)"
+    },
+    "Use .pagination-lg for larger blocks in pagination (Bootstrap snippets)": {
+        "prefix": "pagination-lg",
+        "body": ["pagination-lg"],
+        "description": "Use .pagination-lg for larger blocks in pagination (Bootstrap snippets)"
+    },
+    "Use .pagination-sm for smaller blocks in pagination (Bootstrap snippets)": {
+        "prefix": "pagination-sm",
+        "body": ["pagination-sm"],
+        "description": "Use .pagination-sm for smaller blocks in pagination (Bootstrap snippets)"
     }
 }
