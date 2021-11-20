@@ -2331,8 +2331,8 @@
         "description": "Use .pagination class to create a basic pagination (Bootstrap snippets)"
     },
     "Use .page-item class to create a basic pagination. Use .page-item to each <li> element (Bootstrap snippets)": {
-        "prefix": "pagination",
-        "body": ["pagination"],
+        "prefix": "page-item",
+        "body": ["page-item"],
         "description": "Use .page-item class to create a basic pagination. Use .page-item to each <li> element (Bootstrap snippets)"
     },
     "Use .page-link class to create a basic pagination. Use .page-link class to each link inside <li> (Bootstrap snippets)": {
